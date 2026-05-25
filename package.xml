@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>grid_map_nav2</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="nathan@todo.todo">nathan</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>eigen</build_depend>
+  <build_depend>nav2_common</build_depend>
+  <build_depend>angles</build_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <depend>nav2_costmap_2d</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>grid_map_ros</depend>
+
+  <export>
+    <nav2_costmap_2d plugin="${prefix}/grid_map_layer.xml" />
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
