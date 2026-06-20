@@ -32,11 +32,13 @@ namespace grid_map_nav2
         declareParameter("topic", rclcpp::ParameterValue("/elevation_mapping/elevation_map"));
         declareParameter("min_value", rclcpp::ParameterValue(0.0));
         declareParameter("max_value", rclcpp::ParameterValue(1.0));
+        declareParameter("interpolation_method", rclcpp::ParameterValue("bilinear"));
 
         node->get_parameter(name_ + "." + "layer_name", layer_name_);
         node->get_parameter(name_ + "." + "topic", topic_);
         node->get_parameter(name_ + "." + "min_value", min_value_);
         node->get_parameter(name_ + "." + "max_value", max_value_);
+        node->get_parameter(name_ + "." + "interpolation_method", interpolation_method_);
 
         subscription_ = node->create_subscription<grid_map_msgs::msg::GridMap>(
             topic_,
@@ -121,26 +123,83 @@ namespace grid_map_nav2
         float range = max_value_ - min_value_;
         if (std::abs(range) < 1e-6f) { return; }
 
-        for (int col = 0; col < cols; col++) {
-            for (int row = 0; row < rows; row++) {
-                float value = data[col * rows + row];
+        for (int mx = 0; mx < master_grid.getSizeInCellsX(); mx++) {
+            for (int my = 0; my < master_grid.getSizeInCellsY(); my++) {
+                double wx, wy;
+                master_grid.mapToWorld(mx, my, wx, wy);
+                float value  = std::numeric_limits<float>::lowest();;
 
-                double wx = map_x + (col - cols / 2.0 + 0.5) * resolution;
-                double wy = map_y + (row - rows / 2.0 + 0.5) * resolution;
+                if(master_grid.getResolution() <= resolution){
 
-                unsigned int mx, my;
-                if (!master_grid.worldToMap(wx, wy, mx, my)) { continue; }
+                    // Map world position back to GridMap index
+                    double col_d = cols / 2.0 - (wx - map_x) / resolution - 0.5;
+                    double row_d = rows / 2.0 - (wy - map_y) / resolution - 0.5;
 
-                if (std::isnan(value)) {
-                    master_grid.setCost(mx, my, nav2_costmap_2d::NO_INFORMATION);
-                    continue;
+                    // Skip cells outside GridMap bounds
+                    if (col_d < 0 || col_d > cols - 1 || row_d < 0 || row_d > rows - 1) continue;
+
+                    
+                    if(interpolation_method_ == "nearest_neighbor"){
+                        double col = static_cast<unsigned int>(std::round(col_d));
+                        double row = static_cast<unsigned int>(std::round(row_d));
+                        col = std::clamp(col, 0.0, static_cast<double>(cols - 1));
+                        row = std::clamp(row, 0.0, static_cast<double>(rows - 1));
+                        value = data[row * cols + col];
+                    }
+                    else{
+                        // Bilinear interpolation
+                        int col0 = static_cast<int>(std::floor(col_d));
+                        int row0 = static_cast<int>(std::floor(row_d));
+                        int col1 = col0 + 1;
+                        int row1 = row0 + 1;
+
+                        double dx = col_d - col0;
+                        double dy = row_d - row0;
+
+                        // Clamp indices to valid range
+                        col0 = std::clamp(col0, 0, cols - 1);
+                        row0 = std::clamp(row0, 0, rows - 1);
+                        col1 = std::clamp(col1, 0, cols - 1);
+                        row1 = std::clamp(row1, 0, rows - 1);
+
+                        float v00 = data[row0 * cols + col0];
+                        float v10 = data[row0 * cols + col1];
+                        float v01 = data[row1 * cols + col0];
+                        float v11 = data[row1 * cols + col1];
+
+                        value = (v00 * (1 - dx) * (1 - dy)) +
+                                    (v10 * dx * (1 - dy)) +
+                                    (v01 * (1 - dx) * dy) +
+                                    (v11 * dx * dy);
+                    }
                 }
+                else{
+                    double half = master_grid.getResolution() / 2.0;
+                    for(double sx = wx - half; sx < wx + half; sx += resolution){
+                        for(double sy = wy - half; sy < wy + half; sy += resolution){
+                            // Map world position back to GridMap index
+                            double col_d = cols / 2.0 - (sx - map_x) / resolution - 0.5;
+                            double row_d = rows / 2.0 - (sy - map_y) / resolution - 0.5;
 
-                float normalized = (value - min_value_) / range;
-                unsigned char cost = static_cast<unsigned char>(normalized * 254.0f);
-                master_grid.setCost(mx, my, cost);
+                            // Skip cells outside GridMap bounds
+                            if (col_d < 0 || col_d > cols - 1 || row_d < 0 || row_d > rows - 1) continue;
+                            int col = static_cast<int>(std::round(col_d));
+                            int row = static_cast<int>(std::round(row_d));
+                            col = std::clamp(col, 0, cols - 1);
+                            row = std::clamp(row, 0, rows - 1);
+                            float val = data[row * cols + col];
+                            value = std::max(value, val);
+                        }
+                    }
+                }
+                float normalized = std::clamp(static_cast<float>(value - min_value_) / range, 0.0f, 1.0f);
+                unsigned char new_cost = static_cast<unsigned char>((normalized) * 254.0f);
+
+                // Composite with existing cost — highest cost wins
+                unsigned char existing = master_grid.getCost(mx, my);
+                master_grid.setCost(mx, my, std::max<unsigned char>(existing, new_cost));            
             }
         }
     }
-}
+}  // namespace grid_map_nav2
 PLUGINLIB_EXPORT_CLASS(grid_map_nav2::GridMapLayer, nav2_costmap_2d::Layer)

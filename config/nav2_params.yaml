@@ -5,6 +5,7 @@ amcl:
     alpha3: 0.2
     alpha4: 0.2
     alpha5: 0.2
+    use_sim_time: True
     base_frame_id: "base_footprint"
     beam_skip_distance: 0.5
     beam_skip_error_threshold: 0.9
@@ -50,6 +51,7 @@ bt_navigator:
     default_server_timeout: 20
     default_cancel_timeout: 50
     wait_for_service_timeout: 1000
+    use_sim_time: True
     introspection_mode: "disabled"
     navigators: ["navigate_to_pose", "navigate_through_poses"]
     navigate_to_pose:
@@ -103,6 +105,7 @@ controller_server:
     path_handler_plugins: ["PathHandler"]
     use_realtime_priority: false
     speed_limit_topic: "speed_limit"
+    use_sim_time: True
 
     # Progress checker parameters
     progress_checker:
@@ -236,6 +239,7 @@ controller_server:
 local_costmap:
   local_costmap:
     ros__parameters:
+      use_sim_time: True
       update_frequency: 5.0
       publish_frequency: 2.0
       global_frame: odom
@@ -307,6 +311,7 @@ global_costmap:
         layer_name: "traversability"
         min_value: 0.0
         max_value: 1.0
+        interpolation_method: "bilinear"
       keepout_filter:
         plugin: "nav2_costmap_2d::KeepoutFilter"
         enabled: true

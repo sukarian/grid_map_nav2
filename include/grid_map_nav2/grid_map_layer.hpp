@@ -43,6 +43,7 @@ private:
   std::string topic_;
   double min_value_;
   double max_value_;
+  std::string interpolation_method_;
   
   std::mutex map_mutex_;
   grid_map_msgs::msg::GridMap::SharedPtr latest_map_;

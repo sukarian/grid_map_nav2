@@ -46,8 +46,16 @@ pluginlib_export_plugin_description_file(nav2_costmap_2d grid_map_layer.xml)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
+  find_package(ament_cmake_gtest REQUIRED)
   set(ament_cmake_copyright_FOUND TRUE)
   set(ament_cmake_cpplint_FOUND TRUE)
+  ament_add_gtest(test_grid_map_layer test/test_grid_map_layer.cpp)
+  target_link_libraries(test_grid_map_layer ${lib_name})
+  ament_target_dependencies(test_grid_map_layer
+    rclcpp
+    nav2_costmap_2d
+    grid_map_ros
+    grid_map_msgs)
   ament_lint_auto_find_test_dependencies()
 endif()
 
