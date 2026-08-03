@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="grid_map_nav2.cppcheck"
+  tests="4"
+  errors="0"
+  failures="0"
+  time="0.002"
+  skipped="4"
+>
+  <testcase
+    name="include/grid_map_nav2/grid_map_layer.hpp"
+    classname="grid_map_nav2.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp"
+    classname="grid_map_nav2.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/grid_map_layer.cpp"
+    classname="grid_map_nav2.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="test/test_grid_map_layer.cpp"
+    classname="grid_map_nav2.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.13.0 performance issues</system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="grid_map_nav2.pep257"
+  tests="4"
+  errors="0"
+  failures="0"
+  time="0.079"
+>
+  <testcase
+    name="./install/_local_setup_util_ps1.py"
+    classname="grid_map_nav2.pep257"/>
+  <testcase
+    name="./install/_local_setup_util_sh.py"
+    classname="grid_map_nav2.pep257"/>
+  <testcase
+    name="./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py"
+    classname="grid_map_nav2.pep257"/>
+  <testcase
+    name="./scripts/grid_map_publisher.py"
+    classname="grid_map_nav2.pep257"/>
+  <system-out>Checked files:
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py
+* ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py
+* ./scripts/grid_map_publisher.py</system-out>
+</testsuite>

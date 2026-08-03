@@ -1,0 +1,545 @@
+UpdateCTestConfiguration  from :/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/CTestConfiguration.ini
+Parse Config file:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/CTestConfiguration.ini
+   Site: nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260530-2049 - Experimental
+UpdateCTestConfiguration  from :/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/CTestConfiguration.ini
+Parse Config file:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/CTestConfiguration.ini
+Test project /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_grid_map_layer
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_cmake_gtest/test_grid_map_layer.txt" "--command" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_grid_map_layer" "--gtest_output=xml:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml"
+1: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2':
+1:  - /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_grid_map_layer --gtest_output=xml:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml
+1: [==========] Running 1 test from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 1 test from GridMapLayerTest
+1: [ RUN      ] GridMapLayerTest.UpdateCosts
+1: [INFO] [1780174155.881033466] [grid_map_layer]: Params: layer=traversability topic=/elevation_mapping/elevation_map min=0.00 max=1.00
+1: Costmap after update:
+1: 254 254 254 0 0 0 0 0 0 0 
+1: 254 254 127 0 0 0 0 0 0 0 
+1: 254 127 0 0 0 0 0 0 0 0 
+1: 0 0 0 0 0 0 0 0 0 0 
+1: 0 0 0 0 0 0 0 0 0 0 
+1: 0 0 0 0 0 0 0 0 0 0 
+1: 0 0 0 0 0 0 0 0 0 0 
+1: 0 0 0 0 0 0 0 0 0 0 
+1: 0 0 0 0 0 0 0 0 0 0 
+1: 0 0 0 0 0 0 0 0 0 0 
+1: [       OK ] GridMapLayerTest.UpdateCosts (26 ms)
+1: [----------] 1 test from GridMapLayerTest (26 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 1 test from 1 test suite ran. (26 ms total)
+1: [  PASSED  ] 1 test.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml'
+1: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml'
+1/7 Test #1: test_grid_map_layer ..............   Passed    0.29 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml" "--include_dirs" "/home/nathan/ros_ws/src/grid_map_nav2/include"
+2: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml --include_dirs /home/nathan/ros_ws/src/grid_map_nav2/include
+2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml'
+2/7 Test #2: cppcheck .........................   Passed    0.18 sec
+test 3
+    Start 3: flake8
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml"
+3: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+3:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml
+3: from grid_map_msgs.msg import GridMap
+3: ^
+3: from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension
+3: ^
+3: import numpy as np
+3: ^
+3: class MockGridMapPublisher(Node):
+3: ^
+3:         self.get_logger().info(f'length_x={msg.info.length_x} length_y={msg.info.length_y} resolution={msg.info.resolution}')
+3:                                                                                                    ^
+3: def main():
+3: ^
+3: if __name__ == '__main__':
+3: ^
+3:     main()          ^
+3: from grid_map_msgs.msg import GridMap
+3: ^
+3: from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension
+3: ^
+3: import numpy as np
+3: ^
+3: class MockGridMapPublisher(Node):
+3: ^
+3:         self.get_logger().info(f'length_x={msg.info.length_x} length_y={msg.info.length_y} resolution={msg.info.resolution}')
+3:                                                                                                    ^
+3: def main():
+3: ^
+3: if __name__ == '__main__':
+3: ^
+3:     main()          ^
+3: 4     E302 expected 2 blank lines, found 1
+3: 2     E305 expected 2 blank lines after class or function definition, found 1
+3: 2     E501 line too long (125 > 99 characters)
+3: 4     I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'
+3: 2     I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout
+3: 2     W292 no newline at end of file
+3: 
+3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:4:1: I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'
+3: 
+3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:5:1: I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout
+3: 
+3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:6:1: I100 Import statements are in the wrong order. 'import numpy' should be before 'from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension'
+3: 
+3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:8:1: E302 expected 2 blank lines, found 1
+3: 
+3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:23:100: E501 line too long (125 > 99 characters)
+3: 
+3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:52:1: E302 expected 2 blank lines, found 1
+3: 
+3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:57:1: E305 expected 2 blank lines after class or function definition, found 1
+3: 
+3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:58:11: W292 no newline at end of file
+3: 
+3: ./scripts/grid_map_publisher.py:4:1: I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'
+3: 
+3: ./scripts/grid_map_publisher.py:5:1: I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout
+3: 
+3: ./scripts/grid_map_publisher.py:6:1: I100 Import statements are in the wrong order. 'import numpy' should be before 'from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension'
+3: 
+3: ./scripts/grid_map_publisher.py:8:1: E302 expected 2 blank lines, found 1
+3: 
+3: ./scripts/grid_map_publisher.py:23:100: E501 line too long (125 > 99 characters)
+3: 
+3: ./scripts/grid_map_publisher.py:52:1: E302 expected 2 blank lines, found 1
+3: 
+3: ./scripts/grid_map_publisher.py:57:1: E305 expected 2 blank lines after class or function definition, found 1
+3: 
+3: ./scripts/grid_map_publisher.py:58:11: W292 no newline at end of file
+3: 
+3: 
+3: 4 files checked
+3: 16 errors
+3: 
+3: 'E'-type errors: 8
+3: 'I'-type errors: 6
+3: 'W'-type errors: 2
+3: 
+3: Checked files:
+3: 
+3: * ./scripts/grid_map_publisher.py
+3: * ./install/_local_setup_util_sh.py
+3: * ./install/_local_setup_util_ps1.py
+3: * ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py
+3: -- run_test.py: return code 1
+3: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml'
+3/7 Test #3: flake8 ...........................***Failed    0.46 sec
+test 4
+    Start 4: lint_cmake
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml"
+4: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml'
+4/7 Test #4: lint_cmake .......................   Passed    0.17 sec
+test 5
+    Start 5: pep257
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml"
+5: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+5:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml
+5: checking ./install/_local_setup_util_ps1.py
+5: checking ./install/_local_setup_util_sh.py
+5: checking ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py
+5: checking ./scripts/grid_map_publisher.py
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml'
+5/7 Test #5: pep257 ...........................   Passed    0.28 sec
+test 6
+    Start 6: uncrustify
+
+6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/uncrustify.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/uncrustify.xunit.xml"
+6: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2
+6: Test timeout computed to be: 60
+6: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+6:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/uncrustify.xunit.xml
+6: Code style divergence in file 'include/grid_map_nav2/grid_map_layer.hpp':
+6: 
+6: --- include/grid_map_nav2/grid_map_layer.hpp
+6: +++ include/grid_map_nav2/grid_map_layer.hpp.uncrustify
+6: @@ -24,2 +24,2 @@
+6: -      nav2_costmap_2d::Costmap2D & master_grid,
+6: -      int min_i, int min_j, int max_i, int max_j);
+6: +    nav2_costmap_2d::Costmap2D & master_grid,
+6: +    int min_i, int min_j, int max_i, int max_j);
+6: @@ -46 +46 @@
+6: -  
+6: +
+6: @@ -50 +49,0 @@
+6: -  
+6: @@ -57 +56 @@
+6: -#endif  // GRID_MAP_LAYER_HPP_
+6: +#endif  // GRID_MAP_LAYER_HPP_
+6: 
+6: Code style divergence in file 'install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp':
+6: 
+6: --- install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp
+6: +++ install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp.uncrustify
+6: @@ -24,2 +24,2 @@
+6: -      nav2_costmap_2d::Costmap2D & master_grid,
+6: -      int min_i, int min_j, int max_i, int max_j);
+6: +    nav2_costmap_2d::Costmap2D & master_grid,
+6: +    int min_i, int min_j, int max_i, int max_j);
+6: @@ -46 +46 @@
+6: -  
+6: +
+6: @@ -50 +49,0 @@
+6: -  
+6: @@ -57 +56 @@
+6: -#endif  // GRID_MAP_LAYER_HPP_
+6: +#endif  // GRID_MAP_LAYER_HPP_
+6: 
+6: Code style divergence in file 'src/grid_map_layer.cpp':
+6: 
+6: --- src/grid_map_layer.cpp
+6: +++ src/grid_map_layer.cpp.uncrustify
+6: @@ -19,7 +19,7 @@
+6: -    GridMapLayer::GridMapLayer()
+6: -    :   last_min_x_(-std::numeric_limits<float>::max()),
+6: -        last_min_y_(-std::numeric_limits<float>::max()),
+6: -        last_max_x_(std::numeric_limits<float>::max()),
+6: -        last_max_y_(std::numeric_limits<float>::max())
+6: -    {
+6: -    }
+6: +GridMapLayer::GridMapLayer()
+6: +:   last_min_x_(-std::numeric_limits<float>::max()),
+6: +  last_min_y_(-std::numeric_limits<float>::max()),
+6: +  last_max_x_(std::numeric_limits<float>::max()),
+6: +  last_max_y_(std::numeric_limits<float>::max())
+6: +{
+6: +}
+6: @@ -27,3 +27,3 @@
+6: -    void GridMapLayer::onInitialize()
+6: -    {
+6: -        auto node = node_.lock(); 
+6: +void GridMapLayer::onInitialize()
+6: +{
+6: +  auto node = node_.lock();
+6: @@ -31,4 +31,4 @@
+6: -        declareParameter("layer_name", rclcpp::ParameterValue("traversability"));
+6: -        declareParameter("topic", rclcpp::ParameterValue("/elevation_mapping/elevation_map"));
+6: -        declareParameter("min_value", rclcpp::ParameterValue(0.0));
+6: -        declareParameter("max_value", rclcpp::ParameterValue(1.0));
+6: +  declareParameter("layer_name", rclcpp::ParameterValue("traversability"));
+6: +  declareParameter("topic", rclcpp::ParameterValue("/elevation_mapping/elevation_map"));
+6: +  declareParameter("min_value", rclcpp::ParameterValue(0.0));
+6: +  declareParameter("max_value", rclcpp::ParameterValue(1.0));
+6: @@ -36,4 +36,4 @@
+6: -        node->get_parameter(name_ + "." + "layer_name", layer_name_);
+6: -        node->get_parameter(name_ + "." + "topic", topic_);
+6: -        node->get_parameter(name_ + "." + "min_value", min_value_);
+6: -        node->get_parameter(name_ + "." + "max_value", max_value_);
+6: +  node->get_parameter(name_ + "." + "layer_name", layer_name_);
+6: +  node->get_parameter(name_ + "." + "topic", topic_);
+6: +  node->get_parameter(name_ + "." + "min_value", min_value_);
+6: +  node->get_parameter(name_ + "." + "max_value", max_value_);
+6: @@ -41 +41 @@
+6: -        subscription_ = node->create_subscription<grid_map_msgs::msg::GridMap>(
+6: +  subscription_ = node->create_subscription<grid_map_msgs::msg::GridMap>(
+6: @@ -45 +45 @@
+6: -        );
+6: +  );
+6: @@ -47 +47 @@
+6: -        RCLCPP_INFO(rclcpp::get_logger("grid_map_layer"),
+6: +  RCLCPP_INFO(rclcpp::get_logger("grid_map_layer"),
+6: @@ -51,2 +51,2 @@
+6: -        need_recalculation_ = true;
+6: -    }
+6: +  need_recalculation_ = true;
+6: +}
+6: @@ -54,6 +54,6 @@
+6: -    void 
+6: -    GridMapLayer::gridMapCallback(const grid_map_msgs::msg::GridMap::SharedPtr msg)
+6: -    {
+6: -        std::lock_guard<std::mutex> lock(map_mutex_);
+6: -        latest_map_ = msg;
+6: -    }
+6: +void
+6: +GridMapLayer::gridMapCallback(const grid_map_msgs::msg::GridMap::SharedPtr msg)
+6: +{
+6: +  std::lock_guard<std::mutex> lock(map_mutex_);
+6: +  latest_map_ = msg;
+6: +}
+6: @@ -61,2 +61,2 @@
+6: -    void GridMapLayer::onFootprintChanged()
+6: -    {
+6: +void GridMapLayer::onFootprintChanged()
+6: +{
+6: @@ -64 +64 @@
+6: -    }
+6: +}
+6: @@ -66,6 +66,6 @@
+6: -    void GridMapLayer::updateBounds(
+6: -        double /*robot_x*/, double /*robot_y*/, double /*robot_yaw*/,
+6: -        double* min_x, double* min_y, double* max_x, double* max_y)
+6: -    {
+6: -        std::lock_guard<std::mutex> lock(map_mutex_);
+6: -        if (!latest_map_) { return; }
+6: +void GridMapLayer::updateBounds(
+6: +  double /*robot_x*/, double /*robot_y*/, double /*robot_yaw*/,
+6: +  double * min_x, double * min_y, double * max_x, double * max_y)
+6: +{
+6: +  std::lock_guard<std::mutex> lock(map_mutex_);
+6: +  if (!latest_map_) {return;}
+6: @@ -73,4 +73,4 @@
+6: -        double map_x = latest_map_->info.pose.position.x;
+6: -        double map_y = latest_map_->info.pose.position.y;
+6: -        double half_x = latest_map_->info.length_x / 2.0;
+6: -        double half_y = latest_map_->info.length_y / 2.0;
+6: +  double map_x = latest_map_->info.pose.position.x;
+6: +  double map_y = latest_map_->info.pose.position.y;
+6: +  double half_x = latest_map_->info.length_x / 2.0;
+6: +  double half_y = latest_map_->info.length_y / 2.0;
+6: @@ -78,5 +78,5 @@
+6: -        *min_x = std::min(*min_x, map_x - half_x);
+6: -        *min_y = std::min(*min_y, map_y - half_y);
+6: -        *max_x = std::max(*max_x, map_x + half_x);
+6: -        *max_y = std::max(*max_y, map_y + half_y);
+6: -    }
+6: +  *min_x = std::min(*min_x, map_x - half_x);
+6: +  *min_y = std::min(*min_y, map_y - half_y);
+6: +  *max_x = std::max(*max_x, map_x + half_x);
+6: +  *max_y = std::max(*max_y, map_y + half_y);
+6: +}
+6: @@ -84,6 +84,6 @@
+6: -    void GridMapLayer::updateCosts(
+6: -        nav2_costmap_2d::Costmap2D & master_grid,
+6: -        int min_i, int min_j, int max_i, int max_j)
+6: -    {
+6: -        std::lock_guard<std::mutex> lock(map_mutex_);
+6: -        if (!latest_map_) { return; }
+6: +void GridMapLayer::updateCosts(
+6: +  nav2_costmap_2d::Costmap2D & master_grid,
+6: +  int min_i, int min_j, int max_i, int max_j)
+6: +{
+6: +  std::lock_guard<std::mutex> lock(map_mutex_);
+6: +  if (!latest_map_) {return;}
+6: @@ -92,9 +92,9 @@
+6: -        int layer_idx = -1;
+6: -        for (size_t i = 0; i < latest_map_->layers.size(); i++) {
+6: -            if (latest_map_->layers[i] == layer_name_) {
+6: -                layer_idx = static_cast<int>(i);
+6: -                break;
+6: -            }
+6: -        }
+6: -        if (layer_idx < 0) {
+6: -            RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),
+6: +  int layer_idx = -1;
+6: +  for (size_t i = 0; i < latest_map_->layers.size(); i++) {
+6: +    if (latest_map_->layers[i] == layer_name_) {
+6: +      layer_idx = static_cast<int>(i);
+6: +      break;
+6: +    }
+6: +  }
+6: +  if (layer_idx < 0) {
+6: +    RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),
+6: @@ -102,2 +102,2 @@
+6: -            return;
+6: -        }
+6: +    return;
+6: +  }
+6: @@ -105,2 +105,2 @@
+6: -        double resolution = latest_map_->info.resolution;
+6: -        if (resolution <= 0.0) { return; }
+6: +  double resolution = latest_map_->info.resolution;
+6: +  if (resolution <= 0.0) {return;}
+6: @@ -108,4 +108,4 @@
+6: -        int cols = static_cast<int>(std::round(latest_map_->info.length_x / resolution));
+6: -        int rows = static_cast<int>(std::round(latest_map_->info.length_y / resolution));
+6: -        double map_x = latest_map_->info.pose.position.x;
+6: -        double map_y = latest_map_->info.pose.position.y;
+6: +  int cols = static_cast<int>(std::round(latest_map_->info.length_x / resolution));
+6: +  int rows = static_cast<int>(std::round(latest_map_->info.length_y / resolution));
+6: +  double map_x = latest_map_->info.pose.position.x;
+6: +  double map_y = latest_map_->info.pose.position.y;
+6: @@ -113 +113 @@
+6: -        const auto & data = latest_map_->data[layer_idx].data;
+6: +  const auto & data = latest_map_->data[layer_idx].data;
+6: @@ -115,2 +115,2 @@
+6: -        if (static_cast<int>(data.size()) != cols * rows) {
+6: -            RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),
+6: +  if (static_cast<int>(data.size()) != cols * rows) {
+6: +    RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),
+6: @@ -118,2 +118,2 @@
+6: -            return;
+6: -        }
+6: +    return;
+6: +  }
+6: @@ -121,2 +121,2 @@
+6: -        float range = max_value_ - min_value_;
+6: -        if (std::abs(range) < 1e-6f) { return; }
+6: +  float range = max_value_ - min_value_;
+6: +  if (std::abs(range) < 1e-6f) {return;}
+6: @@ -124,3 +124,3 @@
+6: -        for (int col = 0; col < cols; col++) {
+6: -            for (int row = 0; row < rows; row++) {
+6: -                float value = data[col * rows + row];
+6: +  for (int col = 0; col < cols; col++) {
+6: +    for (int row = 0; row < rows; row++) {
+6: +      float value = data[col * rows + row];
+6: @@ -128,2 +128,2 @@
+6: -                double wx = map_x + (cols / 2.0 - col - 0.5) * resolution;
+6: -                double wy = map_y + (rows / 2.0 - row - 0.5) * resolution;
+6: +      double wx = map_x + (cols / 2.0 - col - 0.5) * resolution;
+6: +      double wy = map_y + (rows / 2.0 - row - 0.5) * resolution;
+6: @@ -131,2 +131,2 @@
+6: -                unsigned int mx, my;
+6: -                if (!master_grid.worldToMap(wx, wy, mx, my)) { continue; }
+6: +      unsigned int mx, my;
+6: +      if (!master_grid.worldToMap(wx, wy, mx, my)) {continue;}
+6: @@ -134,4 +134,4 @@
+6: -                if (std::isnan(value)) {
+6: -                    master_grid.setCost(mx, my, nav2_costmap_2d::NO_INFORMATION);
+6: -                    continue;
+6: -                }
+6: +      if (std::isnan(value)) {
+6: +        master_grid.setCost(mx, my, nav2_costmap_2d::NO_INFORMATION);
+6: +        continue;
+6: +      }
+6: @@ -139,5 +139,3 @@
+6: -                float normalized = (value - min_value_) / range;
+6: -                unsigned char cost = static_cast<unsigned char>(normalized * 254.0f);
+6: -                master_grid.setCost(mx, my, cost);
+6: -            }
+6: -        }
+6: +      float normalized = (value - min_value_) / range;
+6: +      unsigned char cost = static_cast<unsigned char>(normalized * 254.0f);
+6: +      master_grid.setCost(mx, my, cost);
+6: @@ -144,0 +143,2 @@
+6: +  }
+6: +}
+6: 
+6: Code style divergence in file 'test/test_grid_map_layer.cpp':
+6: 
+6: --- test/test_grid_map_layer.cpp
+6: +++ test/test_grid_map_layer.cpp.uncrustify
+6: @@ -21 +21 @@
+6: -        std::make_shared<tf2_ros::Buffer>(clock);
+6: +    std::make_shared<tf2_ros::Buffer>(clock);
+6: @@ -24 +24 @@
+6: -        std::make_shared<nav2_costmap_2d::LayeredCostmap>(
+6: +    std::make_shared<nav2_costmap_2d::LayeredCostmap>(
+6: @@ -30 +30 @@
+6: -        std::make_shared<grid_map_nav2::GridMapLayer>();
+6: +    std::make_shared<grid_map_nav2::GridMapLayer>();
+6: @@ -51,5 +51,5 @@
+6: -        0.0, 0.5, 1.0, 0.5, 0.0,
+6: -        0.5, 1.0, 1.0, 1.0, 0.5,
+6: -        1.0, 1.0, 1.0, 1.0, 1.0,
+6: -        0.5, 1.0, 1.0, 1.0, 0.5,
+6: -        0.0, 0.5, 1.0, 0.5, 0.0
+6: +    0.0, 0.5, 1.0, 0.5, 0.0,
+6: +    0.5, 1.0, 1.0, 1.0, 0.5,
+6: +    1.0, 1.0, 1.0, 1.0, 1.0,
+6: +    0.5, 1.0, 1.0, 1.0, 0.5,
+6: +    0.0, 0.5, 1.0, 0.5, 0.0
+6: @@ -70,3 +70,4 @@
+6: -        for (unsigned int i = 0; i < costmap.getSizeInCellsX(); i++) {
+6: -            std::cout << static_cast<int>(costmap.getCost(i, j)) << " ";
+6: -        }        std::cout << std::endl;
+6: +    for (unsigned int i = 0; i < costmap.getSizeInCellsX(); i++) {
+6: +      std::cout << static_cast<int>(costmap.getCost(i, j)) << " ";
+6: +    }
+6: +    std::cout << std::endl;
+6: @@ -87 +88,2 @@
+6: -    ASSERT_EQ(costmap.getCost(5, 5), 0);}
+6: +    ASSERT_EQ(costmap.getCost(5, 5), 0);
+6: +}
+6: @@ -91,2 +93,2 @@
+6: -    rclcpp::init(argc, argv);
+6: -    ::testing::InitGoogleTest(&argc, argv);
+6: +  rclcpp::init(argc, argv);
+6: +  ::testing::InitGoogleTest(&argc, argv);
+6: @@ -94 +96 @@
+6: -    auto result = RUN_ALL_TESTS();
+6: +  auto result = RUN_ALL_TESTS();
+6: @@ -96,3 +98,3 @@
+6: -    rclcpp::shutdown();
+6: -    return result;
+6: -}
+6: +  rclcpp::shutdown();
+6: +  return result;
+6: +}
+6: 
+6: 4 files with code style divergence
+6: -- run_test.py: return code 1
+6: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/uncrustify.xunit.xml'
+6/7 Test #6: uncrustify .......................***Failed    0.23 sec
+test 7
+    Start 7: xmllint
+
+7: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/xmllint.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/xmllint.xunit.xml"
+7: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2
+7: Test timeout computed to be: 60
+7: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+7:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/xmllint.xunit.xml
+7: File 'grid_map_layer.xml' is valid
+7: 
+7: File 'package.xml' is valid
+7: 
+7: File 'install/grid_map_nav2/share/grid_map_nav2/grid_map_layer.xml' is valid
+7: 
+7: File 'install/grid_map_nav2/share/grid_map_nav2/package.xml' is valid
+7: 
+7: No problems found
+7: -- run_test.py: return code 0
+7: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/xmllint.xunit.xml'
+7/7 Test #7: xmllint ..........................   Passed    1.32 sec
+
+71% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 7
+
+Label Time Summary:
+cppcheck      =   0.18 sec*proc (1 test)
+flake8        =   0.46 sec*proc (1 test)
+gtest         =   0.29 sec*proc (1 test)
+lint_cmake    =   0.17 sec*proc (1 test)
+linter        =   2.63 sec*proc (6 tests)
+pep257        =   0.28 sec*proc (1 test)
+uncrustify    =   0.23 sec*proc (1 test)
+xmllint       =   1.32 sec*proc (1 test)
+
+Total Test time (real) =   2.93 sec
+
+The following tests FAILED:
+	[0;31m  3 - flake8 (Failed)[0;0m
+	[0;31m  6 - uncrustify (Failed)[0;0m
+Errors while running CTest
+Output from these tests are in: /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

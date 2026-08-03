@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000579] (grid_map_nav2) JobQueued: {'identifier': 'grid_map_nav2', 'dependencies': OrderedDict()}
+[0.000676] (grid_map_nav2) JobStarted: {'identifier': 'grid_map_nav2'}
+[0.013003] (grid_map_nav2) JobProgress: {'identifier': 'grid_map_nav2', 'progress': 'cmake'}
+[0.013890] (grid_map_nav2) JobProgress: {'identifier': 'grid_map_nav2', 'progress': 'build'}
+[0.014644] (grid_map_nav2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', '--', '-j16', '-l16'], 'cwd': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'nathan', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/nathan/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib:/home/nathan/ros_ws/install/grid_map_demos/lib:/home/nathan/ros_ws/install/grid_map_visualization/lib:/home/nathan/ros_ws/install/grid_map_sdf/lib:/home/nathan/ros_ws/install/grid_map_rviz_plugin/lib:/home/nathan/ros_ws/install/grid_map_pcl/lib:/home/nathan/ros_ws/install/grid_map_nav2/lib:/home/nathan/ros_ws/install/grid_map_loader/lib:/home/nathan/ros_ws/install/grid_map_filters/lib:/home/nathan/ros_ws/install/grid_map_ros/lib:/home/nathan/ros_ws/install/grid_map_octomap/lib:/home/nathan/ros_ws/install/grid_map_msgs/lib:/home/nathan/ros_ws/install/grid_map_cv/lib:/home/nathan/ros_ws/install/grid_map_costmap_2d/lib:/home/nathan/ros_ws/install/grid_map_core/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathan', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.122.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/243/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/nathan/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/243/usr/share/code/code', 'MANAGERPID': '2220', 'SYSTEMD_EXEC_PID': '2530', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathan/ros_ws/src/grid_map_nav2/install:/home/nathan/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathan', 'JOURNAL_STREAM': '9:20433', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'nathan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:@/tmp/.ICE-unix/2504,unix/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:/tmp/.ICE-unix/2504', 'GTK_EXE_PREFIX': '/snap/code/243/usr', 'INVOCATION_ID': '783f7003297e44ad8c7ad7b3c71a384c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/243/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/nathan/snap/code/243/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GKN2P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-37f4059210.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/nathan/snap/code/243/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': 'c4821c9a9157276675ff2dfa73355940', 'XDG_DATA_DIRS': '/home/nathan/snap/code/243/.local/share:/home/nathan/snap/code/243:/snap/code/243/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathan/ros_ws/install/grid_map_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099711] (-) TimerEvent: {}
+[0.110730] (grid_map_nav2) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[0.110990] (grid_map_nav2) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[0.124732] (grid_map_nav2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/grid_map_nav2.dir/src/grid_map_layer.cpp.o\x1b[0m\n'}
+[0.199854] (-) TimerEvent: {}
+[0.300176] (-) TimerEvent: {}
+[0.400505] (-) TimerEvent: {}
+[0.500846] (-) TimerEvent: {}
+[0.601180] (-) TimerEvent: {}
+[0.701543] (-) TimerEvent: {}
+[0.801884] (-) TimerEvent: {}
+[0.902224] (-) TimerEvent: {}
+[1.002566] (-) TimerEvent: {}
+[1.102900] (-) TimerEvent: {}
+[1.203238] (-) TimerEvent: {}
+[1.303590] (-) TimerEvent: {}
+[1.403932] (-) TimerEvent: {}
+[1.504451] (-) TimerEvent: {}
+[1.604970] (-) TimerEvent: {}
+[1.705276] (-) TimerEvent: {}
+[1.805621] (-) TimerEvent: {}
+[1.905992] (-) TimerEvent: {}
+[2.006332] (-) TimerEvent: {}
+[2.106669] (-) TimerEvent: {}
+[2.207024] (-) TimerEvent: {}
+[2.307374] (-) TimerEvent: {}
+[2.407735] (-) TimerEvent: {}
+[2.508108] (-) TimerEvent: {}
+[2.608745] (-) TimerEvent: {}
+[2.709191] (-) TimerEvent: {}
+[2.809548] (-) TimerEvent: {}
+[2.909892] (-) TimerEvent: {}
+[3.010580] (-) TimerEvent: {}
+[3.110984] (-) TimerEvent: {}
+[3.211273] (-) TimerEvent: {}
+[3.311616] (-) TimerEvent: {}
+[3.411974] (-) TimerEvent: {}
+[3.512607] (-) TimerEvent: {}
+[3.613539] (-) TimerEvent: {}
+[3.713912] (-) TimerEvent: {}
+[3.795241] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void grid_map_nav2::GridMapLayer::\x1b[01;32m\x1b[KupdateCosts\x1b[m\x1b[K(nav2_costmap_2d::Costmap2D&, int, int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.796370] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:139:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kclamp(double, float, float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.796509] (grid_map_nav2) StderrLine: {'line': b'  139 |                 float normalized = \x1b[01;31m\x1b[Kstd::clamp((value - min_value_) / range, 0.0f, 1.0f)\x1b[m\x1b[K;\n'}
+[3.796572] (grid_map_nav2) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.796631] (grid_map_nav2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/algorithm:61\x1b[m\x1b[K,\n'}
+[3.796689] (grid_map_nav2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:11\x1b[m\x1b[K,\n'}
+[3.796747] (grid_map_nav2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[3.796818] (grid_map_nav2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K,\n'}
+[3.796876] (grid_map_nav2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[3.796934] (grid_map_nav2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp:4\x1b[m\x1b[K,\n'}
+[3.796992] (grid_map_nav2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:1\x1b[m\x1b[K:\n'}
+[3.797050] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const _Tp&, const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.797111] (grid_map_nav2) StderrLine: {'line': b' 3667 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)\n'}
+[3.797169] (grid_map_nav2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.797228] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.797283] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:139:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.797346] (grid_map_nav2) StderrLine: {'line': b'  139 |                 float normalized = \x1b[01;36m\x1b[Kstd::clamp((value - min_value_) / range, 0.0f, 1.0f)\x1b[m\x1b[K;\n'}
+[3.797405] (grid_map_nav2) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.797479] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3687:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const _Tp&, const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.797540] (grid_map_nav2) StderrLine: {'line': b' 3687 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)\n'}
+[3.797598] (grid_map_nav2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.797655] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3687:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.797712] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:139:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.797770] (grid_map_nav2) StderrLine: {'line': b'  139 |                 float normalized = \x1b[01;36m\x1b[Kstd::clamp((value - min_value_) / range, 0.0f, 1.0f)\x1b[m\x1b[K;\n'}
+[3.797836] (grid_map_nav2) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.797889] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmin_i\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.797960] (grid_map_nav2) StderrLine: {'line': b'   86 |         \x1b[01;35m\x1b[Kint min_i\x1b[m\x1b[K, int min_j, int max_i, int max_j)\n'}
+[3.798018] (grid_map_nav2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.798074] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmin_j\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.798147] (grid_map_nav2) StderrLine: {'line': b'   86 |         int min_i, \x1b[01;35m\x1b[Kint min_j\x1b[m\x1b[K, int max_i, int max_j)\n'}
+[3.798205] (grid_map_nav2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.798266] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmax_i\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.798325] (grid_map_nav2) StderrLine: {'line': b'   86 |         int min_i, int min_j, \x1b[01;35m\x1b[Kint max_i\x1b[m\x1b[K, int max_j)\n'}
+[3.798381] (grid_map_nav2) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.798439] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmax_j\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.798501] (grid_map_nav2) StderrLine: {'line': b'   86 |         int min_i, int min_j, int max_i, \x1b[01;35m\x1b[Kint max_j\x1b[m\x1b[K)\n'}
+[3.798556] (grid_map_nav2) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.814312] (-) TimerEvent: {}
+[3.914668] (-) TimerEvent: {}
+[4.015094] (-) TimerEvent: {}
+[4.115436] (-) TimerEvent: {}
+[4.215838] (-) TimerEvent: {}
+[4.316264] (-) TimerEvent: {}
+[4.416631] (-) TimerEvent: {}
+[4.516956] (-) TimerEvent: {}
+[4.617297] (-) TimerEvent: {}
+[4.717672] (-) TimerEvent: {}
+[4.818079] (-) TimerEvent: {}
+[4.918413] (-) TimerEvent: {}
+[5.018758] (-) TimerEvent: {}
+[5.119244] (-) TimerEvent: {}
+[5.219583] (-) TimerEvent: {}
+[5.319918] (-) TimerEvent: {}
+[5.420294] (-) TimerEvent: {}
+[5.520704] (-) TimerEvent: {}
+[5.621147] (-) TimerEvent: {}
+[5.721488] (-) TimerEvent: {}
+[5.821862] (-) TimerEvent: {}
+[5.892644] (grid_map_nav2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/grid_map_nav2.dir/build.make:76: CMakeFiles/grid_map_nav2.dir/src/grid_map_layer.cpp.o] Error 1\n'}
+[5.893074] (grid_map_nav2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/grid_map_nav2.dir/all] Error 2\n'}
+[5.893626] (grid_map_nav2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.896940] (grid_map_nav2) CommandEnded: {'returncode': 2}
+[5.910522] (grid_map_nav2) JobEnded: {'identifier': 'grid_map_nav2', 'rc': 2}
+[5.920921] (-) EventReactorShutdown: {}

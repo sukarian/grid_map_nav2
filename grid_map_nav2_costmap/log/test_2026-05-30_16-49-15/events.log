@@ -1,0 +1,582 @@
+[0.000000] (-) TimerEvent: {}
+[0.000519] (grid_map_nav2) JobQueued: {'identifier': 'grid_map_nav2', 'dependencies': OrderedDict({'grid_map_nav2': '/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2'})}
+[0.000614] (grid_map_nav2) JobStarted: {'identifier': 'grid_map_nav2'}
+[0.042116] (grid_map_nav2) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'nathan', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/nathan/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib:/home/nathan/ros_ws/install/grid_map_demos/lib:/home/nathan/ros_ws/install/grid_map_visualization/lib:/home/nathan/ros_ws/install/grid_map_sdf/lib:/home/nathan/ros_ws/install/grid_map_rviz_plugin/lib:/home/nathan/ros_ws/install/grid_map_pcl/lib:/home/nathan/ros_ws/install/grid_map_nav2/lib:/home/nathan/ros_ws/install/grid_map_loader/lib:/home/nathan/ros_ws/install/grid_map_filters/lib:/home/nathan/ros_ws/install/grid_map_ros/lib:/home/nathan/ros_ws/install/grid_map_octomap/lib:/home/nathan/ros_ws/install/grid_map_msgs/lib:/home/nathan/ros_ws/install/grid_map_cv/lib:/home/nathan/ros_ws/install/grid_map_costmap_2d/lib:/home/nathan/ros_ws/install/grid_map_core/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathan', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.122.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/243/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/nathan/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/243/usr/share/code/code', 'MANAGERPID': '2220', 'SYSTEMD_EXEC_PID': '2530', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathan/ros_ws/src/grid_map_nav2/install:/home/nathan/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathan', 'JOURNAL_STREAM': '9:20433', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'nathan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:@/tmp/.ICE-unix/2504,unix/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:/tmp/.ICE-unix/2504', 'GTK_EXE_PREFIX': '/snap/code/243/usr', 'INVOCATION_ID': '783f7003297e44ad8c7ad7b3c71a384c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/243/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/nathan/snap/code/243/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GKN2P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-37f4059210.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/nathan/snap/code/243/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': 'c4821c9a9157276675ff2dfa73355940', 'XDG_DATA_DIRS': '/home/nathan/snap/code/243/.local/share:/home/nathan/snap/code/243:/snap/code/243/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathan/ros_ws/install/grid_map_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.056900] (grid_map_nav2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/CTestConfiguration.ini\n'}
+[0.057354] (grid_map_nav2) StdoutLine: {'line': b'Parse Config file:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/CTestConfiguration.ini\n'}
+[0.057639] (grid_map_nav2) StdoutLine: {'line': b'   Site: nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH\n'}
+[0.057853] (grid_map_nav2) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.058467] (grid_map_nav2) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.058714] (grid_map_nav2) StdoutLine: {'line': b'Create new tag: 20260530-2049 - Experimental\n'}
+[0.059189] (grid_map_nav2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/CTestConfiguration.ini\n'}
+[0.059675] (grid_map_nav2) StdoutLine: {'line': b'Parse Config file:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/CTestConfiguration.ini\n'}
+[0.060149] (grid_map_nav2) StdoutLine: {'line': b'Test project /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2\n'}
+[0.060396] (grid_map_nav2) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.060630] (grid_map_nav2) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.060982] (grid_map_nav2) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.061232] (grid_map_nav2) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.061468] (grid_map_nav2) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.061938] (grid_map_nav2) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.062662] (grid_map_nav2) StdoutLine: {'line': b'test 1\n'}
+[0.063073] (grid_map_nav2) StdoutLine: {'line': b'    Start 1: test_grid_map_layer\n'}
+[0.063203] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[0.063297] (grid_map_nav2) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_cmake_gtest/test_grid_map_layer.txt" "--command" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_grid_map_layer" "--gtest_output=xml:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml"\n'}
+[0.063403] (grid_map_nav2) StdoutLine: {'line': b'1: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2\n'}
+[0.063499] (grid_map_nav2) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099567] (-) TimerEvent: {}
+[0.125139] (grid_map_nav2) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2':\n"}
+[0.125542] (grid_map_nav2) StdoutLine: {'line': b'1:  - /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_grid_map_layer --gtest_output=xml:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml\n'}
+[0.197697] (grid_map_nav2) StdoutLine: {'line': b'1: [==========] Running 1 test from 1 test suite.\n'}
+[0.197899] (grid_map_nav2) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.198008] (grid_map_nav2) StdoutLine: {'line': b'1: [----------] 1 test from GridMapLayerTest\n'}
+[0.198107] (grid_map_nav2) StdoutLine: {'line': b'1: [ RUN      ] GridMapLayerTest.UpdateCosts\n'}
+[0.199672] (-) TimerEvent: {}
+[0.220168] (grid_map_nav2) StdoutLine: {'line': b'1: [INFO] [1780174155.881033466] [grid_map_layer]: Params: layer=traversability topic=/elevation_mapping/elevation_map min=0.00 max=1.00\n'}
+[0.220440] (grid_map_nav2) StdoutLine: {'line': b'1: Costmap after update:\n'}
+[0.220541] (grid_map_nav2) StdoutLine: {'line': b'1: 254 254 254 0 0 0 0 0 0 0 \n'}
+[0.220626] (grid_map_nav2) StdoutLine: {'line': b'1: 254 254 127 0 0 0 0 0 0 0 \n'}
+[0.220721] (grid_map_nav2) StdoutLine: {'line': b'1: 254 127 0 0 0 0 0 0 0 0 \n'}
+[0.220828] (grid_map_nav2) StdoutLine: {'line': b'1: 0 0 0 0 0 0 0 0 0 0 \n'}
+[0.220926] (grid_map_nav2) StdoutLine: {'line': b'1: 0 0 0 0 0 0 0 0 0 0 \n'}
+[0.221010] (grid_map_nav2) StdoutLine: {'line': b'1: 0 0 0 0 0 0 0 0 0 0 \n'}
+[0.221094] (grid_map_nav2) StdoutLine: {'line': b'1: 0 0 0 0 0 0 0 0 0 0 \n'}
+[0.221173] (grid_map_nav2) StdoutLine: {'line': b'1: 0 0 0 0 0 0 0 0 0 0 \n'}
+[0.221250] (grid_map_nav2) StdoutLine: {'line': b'1: 0 0 0 0 0 0 0 0 0 0 \n'}
+[0.221327] (grid_map_nav2) StdoutLine: {'line': b'1: 0 0 0 0 0 0 0 0 0 0 \n'}
+[0.223681] (grid_map_nav2) StdoutLine: {'line': b'1: [       OK ] GridMapLayerTest.UpdateCosts (26 ms)\n'}
+[0.223901] (grid_map_nav2) StdoutLine: {'line': b'1: [----------] 1 test from GridMapLayerTest (26 ms total)\n'}
+[0.224054] (grid_map_nav2) StdoutLine: {'line': b'1: \n'}
+[0.224157] (grid_map_nav2) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.224254] (grid_map_nav2) StdoutLine: {'line': b'1: [==========] 1 test from 1 test suite ran. (26 ms total)\n'}
+[0.224358] (grid_map_nav2) StdoutLine: {'line': b'1: [  PASSED  ] 1 test.\n'}
+[0.300129] (-) TimerEvent: {}
+[0.334345] (grid_map_nav2) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.334660] (grid_map_nav2) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml'\n"}
+[0.334937] (grid_map_nav2) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml'\n"}
+[0.353523] (grid_map_nav2) StdoutLine: {'line': b'1/7 Test #1: test_grid_map_layer ..............   Passed    0.29 sec\n'}
+[0.353991] (grid_map_nav2) StdoutLine: {'line': b'test 2\n'}
+[0.354314] (grid_map_nav2) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.354538] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[0.354771] (grid_map_nav2) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml" "--include_dirs" "/home/nathan/ros_ws/src/grid_map_nav2/include"\n'}
+[0.355035] (grid_map_nav2) StdoutLine: {'line': b'2: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2\n'}
+[0.355256] (grid_map_nav2) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.400223] (-) TimerEvent: {}
+[0.419622] (grid_map_nav2) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':\n"}
+[0.419986] (grid_map_nav2) StdoutLine: {'line': b'2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml --include_dirs /home/nathan/ros_ws/src/grid_map_nav2/include\n'}
+[0.500723] (-) TimerEvent: {}
+[0.502681] (grid_map_nav2) StdoutLine: {'line': b'2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.519817] (grid_map_nav2) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.520230] (grid_map_nav2) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml'\n"}
+[0.534685] (grid_map_nav2) StdoutLine: {'line': b'2/7 Test #2: cppcheck .........................   Passed    0.18 sec\n'}
+[0.534981] (grid_map_nav2) StdoutLine: {'line': b'test 3\n'}
+[0.535143] (grid_map_nav2) StdoutLine: {'line': b'    Start 3: flake8\n'}
+[0.535291] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[0.535437] (grid_map_nav2) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml"\n'}
+[0.535598] (grid_map_nav2) StdoutLine: {'line': b'3: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2\n'}
+[0.535745] (grid_map_nav2) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.600802] (-) TimerEvent: {}
+[0.604303] (grid_map_nav2) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':\n"}
+[0.604457] (grid_map_nav2) StdoutLine: {'line': b'3:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml\n'}
+[0.700905] (-) TimerEvent: {}
+[0.801209] (-) TimerEvent: {}
+[0.901486] (-) TimerEvent: {}
+[0.932867] (grid_map_nav2) StdoutLine: {'line': b'3: from grid_map_msgs.msg import GridMap\n'}
+[0.933812] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.935802] (grid_map_nav2) StdoutLine: {'line': b'3: from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension\n'}
+[0.936085] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.936158] (grid_map_nav2) StdoutLine: {'line': b'3: import numpy as np\n'}
+[0.936225] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.936291] (grid_map_nav2) StdoutLine: {'line': b'3: class MockGridMapPublisher(Node):\n'}
+[0.936357] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.936423] (grid_map_nav2) StdoutLine: {'line': b"3:         self.get_logger().info(f'length_x={msg.info.length_x} length_y={msg.info.length_y} resolution={msg.info.resolution}')\n"}
+[0.936491] (grid_map_nav2) StdoutLine: {'line': b'3:                                                                                                    ^\n'}
+[0.936557] (grid_map_nav2) StdoutLine: {'line': b'3: def main():\n'}
+[0.936621] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.936687] (grid_map_nav2) StdoutLine: {'line': b"3: if __name__ == '__main__':\n"}
+[0.936762] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.936831] (grid_map_nav2) StdoutLine: {'line': b'3:     main()          ^\n'}
+[0.936899] (grid_map_nav2) StdoutLine: {'line': b'3: from grid_map_msgs.msg import GridMap\n'}
+[0.936966] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.937034] (grid_map_nav2) StdoutLine: {'line': b'3: from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension\n'}
+[0.937101] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.937167] (grid_map_nav2) StdoutLine: {'line': b'3: import numpy as np\n'}
+[0.937232] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.937300] (grid_map_nav2) StdoutLine: {'line': b'3: class MockGridMapPublisher(Node):\n'}
+[0.937368] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.937434] (grid_map_nav2) StdoutLine: {'line': b"3:         self.get_logger().info(f'length_x={msg.info.length_x} length_y={msg.info.length_y} resolution={msg.info.resolution}')\n"}
+[0.937501] (grid_map_nav2) StdoutLine: {'line': b'3:                                                                                                    ^\n'}
+[0.937567] (grid_map_nav2) StdoutLine: {'line': b'3: def main():\n'}
+[0.937632] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.937696] (grid_map_nav2) StdoutLine: {'line': b"3: if __name__ == '__main__':\n"}
+[0.937769] (grid_map_nav2) StdoutLine: {'line': b'3: ^\n'}
+[0.937837] (grid_map_nav2) StdoutLine: {'line': b'3:     main()          ^\n'}
+[0.937929] (grid_map_nav2) StdoutLine: {'line': b'3: 4     E302 expected 2 blank lines, found 1\n'}
+[0.938028] (grid_map_nav2) StdoutLine: {'line': b'3: 2     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.938126] (grid_map_nav2) StdoutLine: {'line': b'3: 2     E501 line too long (125 > 99 characters)\n'}
+[0.938222] (grid_map_nav2) StdoutLine: {'line': b"3: 4     I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'\n"}
+[0.938334] (grid_map_nav2) StdoutLine: {'line': b'3: 2     I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout\n'}
+[0.938441] (grid_map_nav2) StdoutLine: {'line': b'3: 2     W292 no newline at end of file\n'}
+[0.938546] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.938639] (grid_map_nav2) StdoutLine: {'line': b"3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:4:1: I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'\n"}
+[0.938745] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.938842] (grid_map_nav2) StdoutLine: {'line': b'3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:5:1: I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout\n'}
+[0.938940] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.939009] (grid_map_nav2) StdoutLine: {'line': b"3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:6:1: I100 Import statements are in the wrong order. 'import numpy' should be before 'from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension'\n"}
+[0.939107] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.939205] (grid_map_nav2) StdoutLine: {'line': b'3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:8:1: E302 expected 2 blank lines, found 1\n'}
+[0.939288] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.939352] (grid_map_nav2) StdoutLine: {'line': b'3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:23:100: E501 line too long (125 > 99 characters)\n'}
+[0.939436] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.939528] (grid_map_nav2) StdoutLine: {'line': b'3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:52:1: E302 expected 2 blank lines, found 1\n'}
+[0.939599] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.939666] (grid_map_nav2) StdoutLine: {'line': b'3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:57:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.939736] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.939822] (grid_map_nav2) StdoutLine: {'line': b'3: ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:58:11: W292 no newline at end of file\n'}
+[0.939909] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.939979] (grid_map_nav2) StdoutLine: {'line': b"3: ./scripts/grid_map_publisher.py:4:1: I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'\n"}
+[0.940050] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.940120] (grid_map_nav2) StdoutLine: {'line': b'3: ./scripts/grid_map_publisher.py:5:1: I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout\n'}
+[0.940191] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.940260] (grid_map_nav2) StdoutLine: {'line': b"3: ./scripts/grid_map_publisher.py:6:1: I100 Import statements are in the wrong order. 'import numpy' should be before 'from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension'\n"}
+[0.940332] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.940401] (grid_map_nav2) StdoutLine: {'line': b'3: ./scripts/grid_map_publisher.py:8:1: E302 expected 2 blank lines, found 1\n'}
+[0.940471] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.940540] (grid_map_nav2) StdoutLine: {'line': b'3: ./scripts/grid_map_publisher.py:23:100: E501 line too long (125 > 99 characters)\n'}
+[0.940609] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.940677] (grid_map_nav2) StdoutLine: {'line': b'3: ./scripts/grid_map_publisher.py:52:1: E302 expected 2 blank lines, found 1\n'}
+[0.940753] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.940825] (grid_map_nav2) StdoutLine: {'line': b'3: ./scripts/grid_map_publisher.py:57:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.940900] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.940969] (grid_map_nav2) StdoutLine: {'line': b'3: ./scripts/grid_map_publisher.py:58:11: W292 no newline at end of file\n'}
+[0.941039] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.941108] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.941177] (grid_map_nav2) StdoutLine: {'line': b'3: 4 files checked\n'}
+[0.941246] (grid_map_nav2) StdoutLine: {'line': b'3: 16 errors\n'}
+[0.941315] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.941384] (grid_map_nav2) StdoutLine: {'line': b"3: 'E'-type errors: 8\n"}
+[0.941454] (grid_map_nav2) StdoutLine: {'line': b"3: 'I'-type errors: 6\n"}
+[0.941523] (grid_map_nav2) StdoutLine: {'line': b"3: 'W'-type errors: 2\n"}
+[0.941592] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.941667] (grid_map_nav2) StdoutLine: {'line': b'3: Checked files:\n'}
+[0.941737] (grid_map_nav2) StdoutLine: {'line': b'3: \n'}
+[0.941815] (grid_map_nav2) StdoutLine: {'line': b'3: * ./scripts/grid_map_publisher.py\n'}
+[0.941885] (grid_map_nav2) StdoutLine: {'line': b'3: * ./install/_local_setup_util_sh.py\n'}
+[0.941956] (grid_map_nav2) StdoutLine: {'line': b'3: * ./install/_local_setup_util_ps1.py\n'}
+[0.942026] (grid_map_nav2) StdoutLine: {'line': b'3: * ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py\n'}
+[0.984388] (grid_map_nav2) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[0.984827] (grid_map_nav2) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml'\n"}
+[0.995715] (grid_map_nav2) StdoutLine: {'line': b'3/7 Test #3: flake8 ...........................***Failed    0.46 sec\n'}
+[0.996054] (grid_map_nav2) StdoutLine: {'line': b'test 4\n'}
+[0.996127] (grid_map_nav2) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[0.996198] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[0.996266] (grid_map_nav2) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml"\n'}
+[0.996344] (grid_map_nav2) StdoutLine: {'line': b'4: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2\n'}
+[0.996412] (grid_map_nav2) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.001598] (-) TimerEvent: {}
+[1.055540] (grid_map_nav2) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':\n"}
+[1.055851] (grid_map_nav2) StdoutLine: {'line': b'4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml\n'}
+[1.101710] (-) TimerEvent: {}
+[1.131021] (grid_map_nav2) StdoutLine: {'line': b'4: \n'}
+[1.131309] (grid_map_nav2) StdoutLine: {'line': b'4: No problems found\n'}
+[1.148400] (grid_map_nav2) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.148675] (grid_map_nav2) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml'\n"}
+[1.166118] (grid_map_nav2) StdoutLine: {'line': b'4/7 Test #4: lint_cmake .......................   Passed    0.17 sec\n'}
+[1.166362] (grid_map_nav2) StdoutLine: {'line': b'test 5\n'}
+[1.166476] (grid_map_nav2) StdoutLine: {'line': b'    Start 5: pep257\n'}
+[1.166580] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[1.166680] (grid_map_nav2) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml"\n'}
+[1.166810] (grid_map_nav2) StdoutLine: {'line': b'5: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2\n'}
+[1.166925] (grid_map_nav2) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.201864] (-) TimerEvent: {}
+[1.230485] (grid_map_nav2) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':\n"}
+[1.230724] (grid_map_nav2) StdoutLine: {'line': b'5:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml\n'}
+[1.302008] (-) TimerEvent: {}
+[1.402391] (-) TimerEvent: {}
+[1.402777] (grid_map_nav2) StdoutLine: {'line': b'5: checking ./install/_local_setup_util_ps1.py\n'}
+[1.403179] (grid_map_nav2) StdoutLine: {'line': b'5: checking ./install/_local_setup_util_sh.py\n'}
+[1.403495] (grid_map_nav2) StdoutLine: {'line': b'5: checking ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py\n'}
+[1.403840] (grid_map_nav2) StdoutLine: {'line': b'5: checking ./scripts/grid_map_publisher.py\n'}
+[1.404061] (grid_map_nav2) StdoutLine: {'line': b'5: No problems found\n'}
+[1.428131] (grid_map_nav2) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[1.428387] (grid_map_nav2) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml'\n"}
+[1.441769] (grid_map_nav2) StdoutLine: {'line': b'5/7 Test #5: pep257 ...........................   Passed    0.28 sec\n'}
+[1.442005] (grid_map_nav2) StdoutLine: {'line': b'test 6\n'}
+[1.442144] (grid_map_nav2) StdoutLine: {'line': b'    Start 6: uncrustify\n'}
+[1.442246] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[1.442349] (grid_map_nav2) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/uncrustify.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/uncrustify.xunit.xml"\n'}
+[1.442460] (grid_map_nav2) StdoutLine: {'line': b'6: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2\n'}
+[1.442561] (grid_map_nav2) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[1.502492] (-) TimerEvent: {}
+[1.503373] (grid_map_nav2) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':\n"}
+[1.503689] (grid_map_nav2) StdoutLine: {'line': b'6:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/uncrustify.xunit.xml\n'}
+[1.602632] (-) TimerEvent: {}
+[1.626326] (grid_map_nav2) StdoutLine: {'line': b"6: Code style divergence in file 'include/grid_map_nav2/grid_map_layer.hpp':\n"}
+[1.626849] (grid_map_nav2) StdoutLine: {'line': b'6: \n'}
+[1.627166] (grid_map_nav2) StdoutLine: {'line': b'6: --- include/grid_map_nav2/grid_map_layer.hpp\n'}
+[1.627740] (grid_map_nav2) StdoutLine: {'line': b'6: +++ include/grid_map_nav2/grid_map_layer.hpp.uncrustify\n'}
+[1.627900] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -24,2 +24,2 @@\n'}
+[1.627988] (grid_map_nav2) StdoutLine: {'line': b'6: -      nav2_costmap_2d::Costmap2D & master_grid,\n'}
+[1.628074] (grid_map_nav2) StdoutLine: {'line': b'6: -      int min_i, int min_j, int max_i, int max_j);\n'}
+[1.628163] (grid_map_nav2) StdoutLine: {'line': b'6: +    nav2_costmap_2d::Costmap2D & master_grid,\n'}
+[1.628249] (grid_map_nav2) StdoutLine: {'line': b'6: +    int min_i, int min_j, int max_i, int max_j);\n'}
+[1.628336] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -46 +46 @@\n'}
+[1.628423] (grid_map_nav2) StdoutLine: {'line': b'6: -  \n'}
+[1.628514] (grid_map_nav2) StdoutLine: {'line': b'6: +\n'}
+[1.630470] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -50 +49,0 @@\n'}
+[1.630587] (grid_map_nav2) StdoutLine: {'line': b'6: -  \n'}
+[1.630686] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -57 +56 @@\n'}
+[1.631119] (grid_map_nav2) StdoutLine: {'line': b'6: -#endif  // GRID_MAP_LAYER_HPP_\n'}
+[1.631222] (grid_map_nav2) StdoutLine: {'line': b'6: +#endif  // GRID_MAP_LAYER_HPP_\n'}
+[1.631415] (grid_map_nav2) StdoutLine: {'line': b'6: \n'}
+[1.631573] (grid_map_nav2) StdoutLine: {'line': b"6: Code style divergence in file 'install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp':\n"}
+[1.631763] (grid_map_nav2) StdoutLine: {'line': b'6: \n'}
+[1.631921] (grid_map_nav2) StdoutLine: {'line': b'6: --- install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp\n'}
+[1.632094] (grid_map_nav2) StdoutLine: {'line': b'6: +++ install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp.uncrustify\n'}
+[1.632229] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -24,2 +24,2 @@\n'}
+[1.632293] (grid_map_nav2) StdoutLine: {'line': b'6: -      nav2_costmap_2d::Costmap2D & master_grid,\n'}
+[1.632370] (grid_map_nav2) StdoutLine: {'line': b'6: -      int min_i, int min_j, int max_i, int max_j);\n'}
+[1.632457] (grid_map_nav2) StdoutLine: {'line': b'6: +    nav2_costmap_2d::Costmap2D & master_grid,\n'}
+[1.632574] (grid_map_nav2) StdoutLine: {'line': b'6: +    int min_i, int min_j, int max_i, int max_j);\n'}
+[1.632667] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -46 +46 @@\n'}
+[1.632758] (grid_map_nav2) StdoutLine: {'line': b'6: -  \n'}
+[1.632829] (grid_map_nav2) StdoutLine: {'line': b'6: +\n'}
+[1.632908] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -50 +49,0 @@\n'}
+[1.632979] (grid_map_nav2) StdoutLine: {'line': b'6: -  \n'}
+[1.633050] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -57 +56 @@\n'}
+[1.633131] (grid_map_nav2) StdoutLine: {'line': b'6: -#endif  // GRID_MAP_LAYER_HPP_\n'}
+[1.633205] (grid_map_nav2) StdoutLine: {'line': b'6: +#endif  // GRID_MAP_LAYER_HPP_\n'}
+[1.633288] (grid_map_nav2) StdoutLine: {'line': b'6: \n'}
+[1.633370] (grid_map_nav2) StdoutLine: {'line': b"6: Code style divergence in file 'src/grid_map_layer.cpp':\n"}
+[1.633473] (grid_map_nav2) StdoutLine: {'line': b'6: \n'}
+[1.633574] (grid_map_nav2) StdoutLine: {'line': b'6: --- src/grid_map_layer.cpp\n'}
+[1.633651] (grid_map_nav2) StdoutLine: {'line': b'6: +++ src/grid_map_layer.cpp.uncrustify\n'}
+[1.633722] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -19,7 +19,7 @@\n'}
+[1.633812] (grid_map_nav2) StdoutLine: {'line': b'6: -    GridMapLayer::GridMapLayer()\n'}
+[1.633888] (grid_map_nav2) StdoutLine: {'line': b'6: -    :   last_min_x_(-std::numeric_limits<float>::max()),\n'}
+[1.633962] (grid_map_nav2) StdoutLine: {'line': b'6: -        last_min_y_(-std::numeric_limits<float>::max()),\n'}
+[1.634045] (grid_map_nav2) StdoutLine: {'line': b'6: -        last_max_x_(std::numeric_limits<float>::max()),\n'}
+[1.634124] (grid_map_nav2) StdoutLine: {'line': b'6: -        last_max_y_(std::numeric_limits<float>::max())\n'}
+[1.634202] (grid_map_nav2) StdoutLine: {'line': b'6: -    {\n'}
+[1.634278] (grid_map_nav2) StdoutLine: {'line': b'6: -    }\n'}
+[1.634356] (grid_map_nav2) StdoutLine: {'line': b'6: +GridMapLayer::GridMapLayer()\n'}
+[1.634429] (grid_map_nav2) StdoutLine: {'line': b'6: +:   last_min_x_(-std::numeric_limits<float>::max()),\n'}
+[1.634510] (grid_map_nav2) StdoutLine: {'line': b'6: +  last_min_y_(-std::numeric_limits<float>::max()),\n'}
+[1.634590] (grid_map_nav2) StdoutLine: {'line': b'6: +  last_max_x_(std::numeric_limits<float>::max()),\n'}
+[1.634683] (grid_map_nav2) StdoutLine: {'line': b'6: +  last_max_y_(std::numeric_limits<float>::max())\n'}
+[1.634789] (grid_map_nav2) StdoutLine: {'line': b'6: +{\n'}
+[1.634877] (grid_map_nav2) StdoutLine: {'line': b'6: +}\n'}
+[1.634971] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -27,3 +27,3 @@\n'}
+[1.635063] (grid_map_nav2) StdoutLine: {'line': b'6: -    void GridMapLayer::onInitialize()\n'}
+[1.635153] (grid_map_nav2) StdoutLine: {'line': b'6: -    {\n'}
+[1.635243] (grid_map_nav2) StdoutLine: {'line': b'6: -        auto node = node_.lock(); \n'}
+[1.635334] (grid_map_nav2) StdoutLine: {'line': b'6: +void GridMapLayer::onInitialize()\n'}
+[1.635430] (grid_map_nav2) StdoutLine: {'line': b'6: +{\n'}
+[1.635523] (grid_map_nav2) StdoutLine: {'line': b'6: +  auto node = node_.lock();\n'}
+[1.635613] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -31,4 +31,4 @@\n'}
+[1.635708] (grid_map_nav2) StdoutLine: {'line': b'6: -        declareParameter("layer_name", rclcpp::ParameterValue("traversability"));\n'}
+[1.635813] (grid_map_nav2) StdoutLine: {'line': b'6: -        declareParameter("topic", rclcpp::ParameterValue("/elevation_mapping/elevation_map"));\n'}
+[1.635920] (grid_map_nav2) StdoutLine: {'line': b'6: -        declareParameter("min_value", rclcpp::ParameterValue(0.0));\n'}
+[1.636012] (grid_map_nav2) StdoutLine: {'line': b'6: -        declareParameter("max_value", rclcpp::ParameterValue(1.0));\n'}
+[1.636100] (grid_map_nav2) StdoutLine: {'line': b'6: +  declareParameter("layer_name", rclcpp::ParameterValue("traversability"));\n'}
+[1.636190] (grid_map_nav2) StdoutLine: {'line': b'6: +  declareParameter("topic", rclcpp::ParameterValue("/elevation_mapping/elevation_map"));\n'}
+[1.636277] (grid_map_nav2) StdoutLine: {'line': b'6: +  declareParameter("min_value", rclcpp::ParameterValue(0.0));\n'}
+[1.636367] (grid_map_nav2) StdoutLine: {'line': b'6: +  declareParameter("max_value", rclcpp::ParameterValue(1.0));\n'}
+[1.636457] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -36,4 +36,4 @@\n'}
+[1.636549] (grid_map_nav2) StdoutLine: {'line': b'6: -        node->get_parameter(name_ + "." + "layer_name", layer_name_);\n'}
+[1.636641] (grid_map_nav2) StdoutLine: {'line': b'6: -        node->get_parameter(name_ + "." + "topic", topic_);\n'}
+[1.636729] (grid_map_nav2) StdoutLine: {'line': b'6: -        node->get_parameter(name_ + "." + "min_value", min_value_);\n'}
+[1.636833] (grid_map_nav2) StdoutLine: {'line': b'6: -        node->get_parameter(name_ + "." + "max_value", max_value_);\n'}
+[1.636924] (grid_map_nav2) StdoutLine: {'line': b'6: +  node->get_parameter(name_ + "." + "layer_name", layer_name_);\n'}
+[1.637014] (grid_map_nav2) StdoutLine: {'line': b'6: +  node->get_parameter(name_ + "." + "topic", topic_);\n'}
+[1.637118] (grid_map_nav2) StdoutLine: {'line': b'6: +  node->get_parameter(name_ + "." + "min_value", min_value_);\n'}
+[1.637206] (grid_map_nav2) StdoutLine: {'line': b'6: +  node->get_parameter(name_ + "." + "max_value", max_value_);\n'}
+[1.637297] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -41 +41 @@\n'}
+[1.637389] (grid_map_nav2) StdoutLine: {'line': b'6: -        subscription_ = node->create_subscription<grid_map_msgs::msg::GridMap>(\n'}
+[1.637480] (grid_map_nav2) StdoutLine: {'line': b'6: +  subscription_ = node->create_subscription<grid_map_msgs::msg::GridMap>(\n'}
+[1.637571] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -45 +45 @@\n'}
+[1.637661] (grid_map_nav2) StdoutLine: {'line': b'6: -        );\n'}
+[1.637758] (grid_map_nav2) StdoutLine: {'line': b'6: +  );\n'}
+[1.637844] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -47 +47 @@\n'}
+[1.637931] (grid_map_nav2) StdoutLine: {'line': b'6: -        RCLCPP_INFO(rclcpp::get_logger("grid_map_layer"),\n'}
+[1.638023] (grid_map_nav2) StdoutLine: {'line': b'6: +  RCLCPP_INFO(rclcpp::get_logger("grid_map_layer"),\n'}
+[1.638111] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -51,2 +51,2 @@\n'}
+[1.638201] (grid_map_nav2) StdoutLine: {'line': b'6: -        need_recalculation_ = true;\n'}
+[1.638291] (grid_map_nav2) StdoutLine: {'line': b'6: -    }\n'}
+[1.638383] (grid_map_nav2) StdoutLine: {'line': b'6: +  need_recalculation_ = true;\n'}
+[1.638473] (grid_map_nav2) StdoutLine: {'line': b'6: +}\n'}
+[1.638564] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -54,6 +54,6 @@\n'}
+[1.638659] (grid_map_nav2) StdoutLine: {'line': b'6: -    void \n'}
+[1.638757] (grid_map_nav2) StdoutLine: {'line': b'6: -    GridMapLayer::gridMapCallback(const grid_map_msgs::msg::GridMap::SharedPtr msg)\n'}
+[1.638852] (grid_map_nav2) StdoutLine: {'line': b'6: -    {\n'}
+[1.638941] (grid_map_nav2) StdoutLine: {'line': b'6: -        std::lock_guard<std::mutex> lock(map_mutex_);\n'}
+[1.639028] (grid_map_nav2) StdoutLine: {'line': b'6: -        latest_map_ = msg;\n'}
+[1.639120] (grid_map_nav2) StdoutLine: {'line': b'6: -    }\n'}
+[1.639212] (grid_map_nav2) StdoutLine: {'line': b'6: +void\n'}
+[1.639301] (grid_map_nav2) StdoutLine: {'line': b'6: +GridMapLayer::gridMapCallback(const grid_map_msgs::msg::GridMap::SharedPtr msg)\n'}
+[1.639390] (grid_map_nav2) StdoutLine: {'line': b'6: +{\n'}
+[1.639480] (grid_map_nav2) StdoutLine: {'line': b'6: +  std::lock_guard<std::mutex> lock(map_mutex_);\n'}
+[1.639601] (grid_map_nav2) StdoutLine: {'line': b'6: +  latest_map_ = msg;\n'}
+[1.639693] (grid_map_nav2) StdoutLine: {'line': b'6: +}\n'}
+[1.639798] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -61,2 +61,2 @@\n'}
+[1.639888] (grid_map_nav2) StdoutLine: {'line': b'6: -    void GridMapLayer::onFootprintChanged()\n'}
+[1.639978] (grid_map_nav2) StdoutLine: {'line': b'6: -    {\n'}
+[1.640068] (grid_map_nav2) StdoutLine: {'line': b'6: +void GridMapLayer::onFootprintChanged()\n'}
+[1.640169] (grid_map_nav2) StdoutLine: {'line': b'6: +{\n'}
+[1.640256] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -64 +64 @@\n'}
+[1.640344] (grid_map_nav2) StdoutLine: {'line': b'6: -    }\n'}
+[1.640435] (grid_map_nav2) StdoutLine: {'line': b'6: +}\n'}
+[1.640527] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -66,6 +66,6 @@\n'}
+[1.640614] (grid_map_nav2) StdoutLine: {'line': b'6: -    void GridMapLayer::updateBounds(\n'}
+[1.640705] (grid_map_nav2) StdoutLine: {'line': b'6: -        double /*robot_x*/, double /*robot_y*/, double /*robot_yaw*/,\n'}
+[1.640809] (grid_map_nav2) StdoutLine: {'line': b'6: -        double* min_x, double* min_y, double* max_x, double* max_y)\n'}
+[1.640905] (grid_map_nav2) StdoutLine: {'line': b'6: -    {\n'}
+[1.640998] (grid_map_nav2) StdoutLine: {'line': b'6: -        std::lock_guard<std::mutex> lock(map_mutex_);\n'}
+[1.641089] (grid_map_nav2) StdoutLine: {'line': b'6: -        if (!latest_map_) { return; }\n'}
+[1.641183] (grid_map_nav2) StdoutLine: {'line': b'6: +void GridMapLayer::updateBounds(\n'}
+[1.641267] (grid_map_nav2) StdoutLine: {'line': b'6: +  double /*robot_x*/, double /*robot_y*/, double /*robot_yaw*/,\n'}
+[1.641357] (grid_map_nav2) StdoutLine: {'line': b'6: +  double * min_x, double * min_y, double * max_x, double * max_y)\n'}
+[1.641448] (grid_map_nav2) StdoutLine: {'line': b'6: +{\n'}
+[1.641539] (grid_map_nav2) StdoutLine: {'line': b'6: +  std::lock_guard<std::mutex> lock(map_mutex_);\n'}
+[1.641632] (grid_map_nav2) StdoutLine: {'line': b'6: +  if (!latest_map_) {return;}\n'}
+[1.641722] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -73,4 +73,4 @@\n'}
+[1.641828] (grid_map_nav2) StdoutLine: {'line': b'6: -        double map_x = latest_map_->info.pose.position.x;\n'}
+[1.641919] (grid_map_nav2) StdoutLine: {'line': b'6: -        double map_y = latest_map_->info.pose.position.y;\n'}
+[1.642010] (grid_map_nav2) StdoutLine: {'line': b'6: -        double half_x = latest_map_->info.length_x / 2.0;\n'}
+[1.642096] (grid_map_nav2) StdoutLine: {'line': b'6: -        double half_y = latest_map_->info.length_y / 2.0;\n'}
+[1.642181] (grid_map_nav2) StdoutLine: {'line': b'6: +  double map_x = latest_map_->info.pose.position.x;\n'}
+[1.642266] (grid_map_nav2) StdoutLine: {'line': b'6: +  double map_y = latest_map_->info.pose.position.y;\n'}
+[1.642352] (grid_map_nav2) StdoutLine: {'line': b'6: +  double half_x = latest_map_->info.length_x / 2.0;\n'}
+[1.642443] (grid_map_nav2) StdoutLine: {'line': b'6: +  double half_y = latest_map_->info.length_y / 2.0;\n'}
+[1.642535] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -78,5 +78,5 @@\n'}
+[1.642628] (grid_map_nav2) StdoutLine: {'line': b'6: -        *min_x = std::min(*min_x, map_x - half_x);\n'}
+[1.642712] (grid_map_nav2) StdoutLine: {'line': b'6: -        *min_y = std::min(*min_y, map_y - half_y);\n'}
+[1.642817] (grid_map_nav2) StdoutLine: {'line': b'6: -        *max_x = std::max(*max_x, map_x + half_x);\n'}
+[1.642903] (grid_map_nav2) StdoutLine: {'line': b'6: -        *max_y = std::max(*max_y, map_y + half_y);\n'}
+[1.642986] (grid_map_nav2) StdoutLine: {'line': b'6: -    }\n'}
+[1.643068] (grid_map_nav2) StdoutLine: {'line': b'6: +  *min_x = std::min(*min_x, map_x - half_x);\n'}
+[1.643142] (grid_map_nav2) StdoutLine: {'line': b'6: +  *min_y = std::min(*min_y, map_y - half_y);\n'}
+[1.643210] (grid_map_nav2) StdoutLine: {'line': b'6: +  *max_x = std::max(*max_x, map_x + half_x);\n'}
+[1.643283] (grid_map_nav2) StdoutLine: {'line': b'6: +  *max_y = std::max(*max_y, map_y + half_y);\n'}
+[1.643365] (grid_map_nav2) StdoutLine: {'line': b'6: +}\n'}
+[1.643436] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -84,6 +84,6 @@\n'}
+[1.643521] (grid_map_nav2) StdoutLine: {'line': b'6: -    void GridMapLayer::updateCosts(\n'}
+[1.643606] (grid_map_nav2) StdoutLine: {'line': b'6: -        nav2_costmap_2d::Costmap2D & master_grid,\n'}
+[1.643698] (grid_map_nav2) StdoutLine: {'line': b'6: -        int min_i, int min_j, int max_i, int max_j)\n'}
+[1.643810] (grid_map_nav2) StdoutLine: {'line': b'6: -    {\n'}
+[1.643904] (grid_map_nav2) StdoutLine: {'line': b'6: -        std::lock_guard<std::mutex> lock(map_mutex_);\n'}
+[1.644001] (grid_map_nav2) StdoutLine: {'line': b'6: -        if (!latest_map_) { return; }\n'}
+[1.644094] (grid_map_nav2) StdoutLine: {'line': b'6: +void GridMapLayer::updateCosts(\n'}
+[1.644182] (grid_map_nav2) StdoutLine: {'line': b'6: +  nav2_costmap_2d::Costmap2D & master_grid,\n'}
+[1.644271] (grid_map_nav2) StdoutLine: {'line': b'6: +  int min_i, int min_j, int max_i, int max_j)\n'}
+[1.644359] (grid_map_nav2) StdoutLine: {'line': b'6: +{\n'}
+[1.644442] (grid_map_nav2) StdoutLine: {'line': b'6: +  std::lock_guard<std::mutex> lock(map_mutex_);\n'}
+[1.644529] (grid_map_nav2) StdoutLine: {'line': b'6: +  if (!latest_map_) {return;}\n'}
+[1.644618] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -92,9 +92,9 @@\n'}
+[1.644704] (grid_map_nav2) StdoutLine: {'line': b'6: -        int layer_idx = -1;\n'}
+[1.644814] (grid_map_nav2) StdoutLine: {'line': b'6: -        for (size_t i = 0; i < latest_map_->layers.size(); i++) {\n'}
+[1.644903] (grid_map_nav2) StdoutLine: {'line': b'6: -            if (latest_map_->layers[i] == layer_name_) {\n'}
+[1.644992] (grid_map_nav2) StdoutLine: {'line': b'6: -                layer_idx = static_cast<int>(i);\n'}
+[1.645074] (grid_map_nav2) StdoutLine: {'line': b'6: -                break;\n'}
+[1.645156] (grid_map_nav2) StdoutLine: {'line': b'6: -            }\n'}
+[1.645242] (grid_map_nav2) StdoutLine: {'line': b'6: -        }\n'}
+[1.645325] (grid_map_nav2) StdoutLine: {'line': b'6: -        if (layer_idx < 0) {\n'}
+[1.645407] (grid_map_nav2) StdoutLine: {'line': b'6: -            RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),\n'}
+[1.645489] (grid_map_nav2) StdoutLine: {'line': b'6: +  int layer_idx = -1;\n'}
+[1.645572] (grid_map_nav2) StdoutLine: {'line': b'6: +  for (size_t i = 0; i < latest_map_->layers.size(); i++) {\n'}
+[1.645657] (grid_map_nav2) StdoutLine: {'line': b'6: +    if (latest_map_->layers[i] == layer_name_) {\n'}
+[1.645741] (grid_map_nav2) StdoutLine: {'line': b'6: +      layer_idx = static_cast<int>(i);\n'}
+[1.645838] (grid_map_nav2) StdoutLine: {'line': b'6: +      break;\n'}
+[1.645919] (grid_map_nav2) StdoutLine: {'line': b'6: +    }\n'}
+[1.646001] (grid_map_nav2) StdoutLine: {'line': b'6: +  }\n'}
+[1.646083] (grid_map_nav2) StdoutLine: {'line': b'6: +  if (layer_idx < 0) {\n'}
+[1.646167] (grid_map_nav2) StdoutLine: {'line': b'6: +    RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),\n'}
+[1.646253] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -102,2 +102,2 @@\n'}
+[1.646336] (grid_map_nav2) StdoutLine: {'line': b'6: -            return;\n'}
+[1.646419] (grid_map_nav2) StdoutLine: {'line': b'6: -        }\n'}
+[1.646501] (grid_map_nav2) StdoutLine: {'line': b'6: +    return;\n'}
+[1.646583] (grid_map_nav2) StdoutLine: {'line': b'6: +  }\n'}
+[1.646663] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -105,2 +105,2 @@\n'}
+[1.646742] (grid_map_nav2) StdoutLine: {'line': b'6: -        double resolution = latest_map_->info.resolution;\n'}
+[1.646864] (grid_map_nav2) StdoutLine: {'line': b'6: -        if (resolution <= 0.0) { return; }\n'}
+[1.646953] (grid_map_nav2) StdoutLine: {'line': b'6: +  double resolution = latest_map_->info.resolution;\n'}
+[1.647037] (grid_map_nav2) StdoutLine: {'line': b'6: +  if (resolution <= 0.0) {return;}\n'}
+[1.647119] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -108,4 +108,4 @@\n'}
+[1.647202] (grid_map_nav2) StdoutLine: {'line': b'6: -        int cols = static_cast<int>(std::round(latest_map_->info.length_x / resolution));\n'}
+[1.647285] (grid_map_nav2) StdoutLine: {'line': b'6: -        int rows = static_cast<int>(std::round(latest_map_->info.length_y / resolution));\n'}
+[1.647376] (grid_map_nav2) StdoutLine: {'line': b'6: -        double map_x = latest_map_->info.pose.position.x;\n'}
+[1.647463] (grid_map_nav2) StdoutLine: {'line': b'6: -        double map_y = latest_map_->info.pose.position.y;\n'}
+[1.647546] (grid_map_nav2) StdoutLine: {'line': b'6: +  int cols = static_cast<int>(std::round(latest_map_->info.length_x / resolution));\n'}
+[1.647628] (grid_map_nav2) StdoutLine: {'line': b'6: +  int rows = static_cast<int>(std::round(latest_map_->info.length_y / resolution));\n'}
+[1.647711] (grid_map_nav2) StdoutLine: {'line': b'6: +  double map_x = latest_map_->info.pose.position.x;\n'}
+[1.647810] (grid_map_nav2) StdoutLine: {'line': b'6: +  double map_y = latest_map_->info.pose.position.y;\n'}
+[1.647891] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -113 +113 @@\n'}
+[1.647971] (grid_map_nav2) StdoutLine: {'line': b'6: -        const auto & data = latest_map_->data[layer_idx].data;\n'}
+[1.648051] (grid_map_nav2) StdoutLine: {'line': b'6: +  const auto & data = latest_map_->data[layer_idx].data;\n'}
+[1.648133] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -115,2 +115,2 @@\n'}
+[1.648213] (grid_map_nav2) StdoutLine: {'line': b'6: -        if (static_cast<int>(data.size()) != cols * rows) {\n'}
+[1.648295] (grid_map_nav2) StdoutLine: {'line': b'6: -            RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),\n'}
+[1.648380] (grid_map_nav2) StdoutLine: {'line': b'6: +  if (static_cast<int>(data.size()) != cols * rows) {\n'}
+[1.648464] (grid_map_nav2) StdoutLine: {'line': b'6: +    RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),\n'}
+[1.648547] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -118,2 +118,2 @@\n'}
+[1.648629] (grid_map_nav2) StdoutLine: {'line': b'6: -            return;\n'}
+[1.648711] (grid_map_nav2) StdoutLine: {'line': b'6: -        }\n'}
+[1.648812] (grid_map_nav2) StdoutLine: {'line': b'6: +    return;\n'}
+[1.648901] (grid_map_nav2) StdoutLine: {'line': b'6: +  }\n'}
+[1.648980] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -121,2 +121,2 @@\n'}
+[1.649064] (grid_map_nav2) StdoutLine: {'line': b'6: -        float range = max_value_ - min_value_;\n'}
+[1.649148] (grid_map_nav2) StdoutLine: {'line': b'6: -        if (std::abs(range) < 1e-6f) { return; }\n'}
+[1.649235] (grid_map_nav2) StdoutLine: {'line': b'6: +  float range = max_value_ - min_value_;\n'}
+[1.649318] (grid_map_nav2) StdoutLine: {'line': b'6: +  if (std::abs(range) < 1e-6f) {return;}\n'}
+[1.649403] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -124,3 +124,3 @@\n'}
+[1.649486] (grid_map_nav2) StdoutLine: {'line': b'6: -        for (int col = 0; col < cols; col++) {\n'}
+[1.649567] (grid_map_nav2) StdoutLine: {'line': b'6: -            for (int row = 0; row < rows; row++) {\n'}
+[1.649646] (grid_map_nav2) StdoutLine: {'line': b'6: -                float value = data[col * rows + row];\n'}
+[1.649732] (grid_map_nav2) StdoutLine: {'line': b'6: +  for (int col = 0; col < cols; col++) {\n'}
+[1.649843] (grid_map_nav2) StdoutLine: {'line': b'6: +    for (int row = 0; row < rows; row++) {\n'}
+[1.649931] (grid_map_nav2) StdoutLine: {'line': b'6: +      float value = data[col * rows + row];\n'}
+[1.650001] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -128,2 +128,2 @@\n'}
+[1.650068] (grid_map_nav2) StdoutLine: {'line': b'6: -                double wx = map_x + (cols / 2.0 - col - 0.5) * resolution;\n'}
+[1.650136] (grid_map_nav2) StdoutLine: {'line': b'6: -                double wy = map_y + (rows / 2.0 - row - 0.5) * resolution;\n'}
+[1.650223] (grid_map_nav2) StdoutLine: {'line': b'6: +      double wx = map_x + (cols / 2.0 - col - 0.5) * resolution;\n'}
+[1.650318] (grid_map_nav2) StdoutLine: {'line': b'6: +      double wy = map_y + (rows / 2.0 - row - 0.5) * resolution;\n'}
+[1.650489] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -131,2 +131,2 @@\n'}
+[1.650615] (grid_map_nav2) StdoutLine: {'line': b'6: -                unsigned int mx, my;\n'}
+[1.650703] (grid_map_nav2) StdoutLine: {'line': b'6: -                if (!master_grid.worldToMap(wx, wy, mx, my)) { continue; }\n'}
+[1.650816] (grid_map_nav2) StdoutLine: {'line': b'6: +      unsigned int mx, my;\n'}
+[1.650945] (grid_map_nav2) StdoutLine: {'line': b'6: +      if (!master_grid.worldToMap(wx, wy, mx, my)) {continue;}\n'}
+[1.651036] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -134,4 +134,4 @@\n'}
+[1.651127] (grid_map_nav2) StdoutLine: {'line': b'6: -                if (std::isnan(value)) {\n'}
+[1.651217] (grid_map_nav2) StdoutLine: {'line': b'6: -                    master_grid.setCost(mx, my, nav2_costmap_2d::NO_INFORMATION);\n'}
+[1.651314] (grid_map_nav2) StdoutLine: {'line': b'6: -                    continue;\n'}
+[1.651413] (grid_map_nav2) StdoutLine: {'line': b'6: -                }\n'}
+[1.651505] (grid_map_nav2) StdoutLine: {'line': b'6: +      if (std::isnan(value)) {\n'}
+[1.651595] (grid_map_nav2) StdoutLine: {'line': b'6: +        master_grid.setCost(mx, my, nav2_costmap_2d::NO_INFORMATION);\n'}
+[1.651681] (grid_map_nav2) StdoutLine: {'line': b'6: +        continue;\n'}
+[1.651889] (grid_map_nav2) StdoutLine: {'line': b'6: +      }\n'}
+[1.651987] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -139,5 +139,3 @@\n'}
+[1.652078] (grid_map_nav2) StdoutLine: {'line': b'6: -                float normalized = (value - min_value_) / range;\n'}
+[1.652355] (grid_map_nav2) StdoutLine: {'line': b'6: -                unsigned char cost = static_cast<unsigned char>(normalized * 254.0f);\n'}
+[1.652463] (grid_map_nav2) StdoutLine: {'line': b'6: -                master_grid.setCost(mx, my, cost);\n'}
+[1.652551] (grid_map_nav2) StdoutLine: {'line': b'6: -            }\n'}
+[1.652639] (grid_map_nav2) StdoutLine: {'line': b'6: -        }\n'}
+[1.652737] (grid_map_nav2) StdoutLine: {'line': b'6: +      float normalized = (value - min_value_) / range;\n'}
+[1.652844] (grid_map_nav2) StdoutLine: {'line': b'6: +      unsigned char cost = static_cast<unsigned char>(normalized * 254.0f);\n'}
+[1.652937] (grid_map_nav2) StdoutLine: {'line': b'6: +      master_grid.setCost(mx, my, cost);\n'}
+[1.653027] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -144,0 +143,2 @@\n'}
+[1.653116] (grid_map_nav2) StdoutLine: {'line': b'6: +  }\n'}
+[1.653224] (grid_map_nav2) StdoutLine: {'line': b'6: +}\n'}
+[1.653312] (grid_map_nav2) StdoutLine: {'line': b'6: \n'}
+[1.653386] (grid_map_nav2) StdoutLine: {'line': b"6: Code style divergence in file 'test/test_grid_map_layer.cpp':\n"}
+[1.653460] (grid_map_nav2) StdoutLine: {'line': b'6: \n'}
+[1.653536] (grid_map_nav2) StdoutLine: {'line': b'6: --- test/test_grid_map_layer.cpp\n'}
+[1.653613] (grid_map_nav2) StdoutLine: {'line': b'6: +++ test/test_grid_map_layer.cpp.uncrustify\n'}
+[1.653693] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -21 +21 @@\n'}
+[1.653789] (grid_map_nav2) StdoutLine: {'line': b'6: -        std::make_shared<tf2_ros::Buffer>(clock);\n'}
+[1.653877] (grid_map_nav2) StdoutLine: {'line': b'6: +    std::make_shared<tf2_ros::Buffer>(clock);\n'}
+[1.653964] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -24 +24 @@\n'}
+[1.654051] (grid_map_nav2) StdoutLine: {'line': b'6: -        std::make_shared<nav2_costmap_2d::LayeredCostmap>(\n'}
+[1.654139] (grid_map_nav2) StdoutLine: {'line': b'6: +    std::make_shared<nav2_costmap_2d::LayeredCostmap>(\n'}
+[1.654223] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -30 +30 @@\n'}
+[1.654311] (grid_map_nav2) StdoutLine: {'line': b'6: -        std::make_shared<grid_map_nav2::GridMapLayer>();\n'}
+[1.654396] (grid_map_nav2) StdoutLine: {'line': b'6: +    std::make_shared<grid_map_nav2::GridMapLayer>();\n'}
+[1.654479] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -51,5 +51,5 @@\n'}
+[1.654578] (grid_map_nav2) StdoutLine: {'line': b'6: -        0.0, 0.5, 1.0, 0.5, 0.0,\n'}
+[1.654661] (grid_map_nav2) StdoutLine: {'line': b'6: -        0.5, 1.0, 1.0, 1.0, 0.5,\n'}
+[1.654764] (grid_map_nav2) StdoutLine: {'line': b'6: -        1.0, 1.0, 1.0, 1.0, 1.0,\n'}
+[1.654855] (grid_map_nav2) StdoutLine: {'line': b'6: -        0.5, 1.0, 1.0, 1.0, 0.5,\n'}
+[1.654941] (grid_map_nav2) StdoutLine: {'line': b'6: -        0.0, 0.5, 1.0, 0.5, 0.0\n'}
+[1.655029] (grid_map_nav2) StdoutLine: {'line': b'6: +    0.0, 0.5, 1.0, 0.5, 0.0,\n'}
+[1.655130] (grid_map_nav2) StdoutLine: {'line': b'6: +    0.5, 1.0, 1.0, 1.0, 0.5,\n'}
+[1.655219] (grid_map_nav2) StdoutLine: {'line': b'6: +    1.0, 1.0, 1.0, 1.0, 1.0,\n'}
+[1.655311] (grid_map_nav2) StdoutLine: {'line': b'6: +    0.5, 1.0, 1.0, 1.0, 0.5,\n'}
+[1.655498] (grid_map_nav2) StdoutLine: {'line': b'6: +    0.0, 0.5, 1.0, 0.5, 0.0\n'}
+[1.655589] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -70,3 +70,4 @@\n'}
+[1.655672] (grid_map_nav2) StdoutLine: {'line': b'6: -        for (unsigned int i = 0; i < costmap.getSizeInCellsX(); i++) {\n'}
+[1.655772] (grid_map_nav2) StdoutLine: {'line': b'6: -            std::cout << static_cast<int>(costmap.getCost(i, j)) << " ";\n'}
+[1.655865] (grid_map_nav2) StdoutLine: {'line': b'6: -        }        std::cout << std::endl;\n'}
+[1.655960] (grid_map_nav2) StdoutLine: {'line': b'6: +    for (unsigned int i = 0; i < costmap.getSizeInCellsX(); i++) {\n'}
+[1.656051] (grid_map_nav2) StdoutLine: {'line': b'6: +      std::cout << static_cast<int>(costmap.getCost(i, j)) << " ";\n'}
+[1.656142] (grid_map_nav2) StdoutLine: {'line': b'6: +    }\n'}
+[1.656232] (grid_map_nav2) StdoutLine: {'line': b'6: +    std::cout << std::endl;\n'}
+[1.656323] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -87 +88,2 @@\n'}
+[1.656417] (grid_map_nav2) StdoutLine: {'line': b'6: -    ASSERT_EQ(costmap.getCost(5, 5), 0);}\n'}
+[1.656515] (grid_map_nav2) StdoutLine: {'line': b'6: +    ASSERT_EQ(costmap.getCost(5, 5), 0);\n'}
+[1.656607] (grid_map_nav2) StdoutLine: {'line': b'6: +}\n'}
+[1.656698] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -91,2 +93,2 @@\n'}
+[1.656805] (grid_map_nav2) StdoutLine: {'line': b'6: -    rclcpp::init(argc, argv);\n'}
+[1.656898] (grid_map_nav2) StdoutLine: {'line': b'6: -    ::testing::InitGoogleTest(&argc, argv);\n'}
+[1.656990] (grid_map_nav2) StdoutLine: {'line': b'6: +  rclcpp::init(argc, argv);\n'}
+[1.657071] (grid_map_nav2) StdoutLine: {'line': b'6: +  ::testing::InitGoogleTest(&argc, argv);\n'}
+[1.657152] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -94 +96 @@\n'}
+[1.657238] (grid_map_nav2) StdoutLine: {'line': b'6: -    auto result = RUN_ALL_TESTS();\n'}
+[1.657321] (grid_map_nav2) StdoutLine: {'line': b'6: +  auto result = RUN_ALL_TESTS();\n'}
+[1.657405] (grid_map_nav2) StdoutLine: {'line': b'6: @@ -96,3 +98,3 @@\n'}
+[1.657493] (grid_map_nav2) StdoutLine: {'line': b'6: -    rclcpp::shutdown();\n'}
+[1.657583] (grid_map_nav2) StdoutLine: {'line': b'6: -    return result;\n'}
+[1.657687] (grid_map_nav2) StdoutLine: {'line': b'6: -}\n'}
+[1.657803] (grid_map_nav2) StdoutLine: {'line': b'6: +  rclcpp::shutdown();\n'}
+[1.657901] (grid_map_nav2) StdoutLine: {'line': b'6: +  return result;\n'}
+[1.658001] (grid_map_nav2) StdoutLine: {'line': b'6: +}\n'}
+[1.658099] (grid_map_nav2) StdoutLine: {'line': b'6: \n'}
+[1.658183] (grid_map_nav2) StdoutLine: {'line': b'6: 4 files with code style divergence\n'}
+[1.658275] (grid_map_nav2) StdoutLine: {'line': b'6: -- run_test.py: return code 1\n'}
+[1.658374] (grid_map_nav2) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/uncrustify.xunit.xml'\n"}
+[1.668960] (grid_map_nav2) StdoutLine: {'line': b'6/7 Test #6: uncrustify .......................***Failed    0.23 sec\n'}
+[1.669312] (grid_map_nav2) StdoutLine: {'line': b'test 7\n'}
+[1.669381] (grid_map_nav2) StdoutLine: {'line': b'    Start 7: xmllint\n'}
+[1.669441] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[1.669500] (grid_map_nav2) StdoutLine: {'line': b'7: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/xmllint.xunit.xml" "--package-name" "grid_map_nav2" "--output-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/xmllint.xunit.xml"\n'}
+[1.669568] (grid_map_nav2) StdoutLine: {'line': b'7: Working Directory: /home/nathan/ros_ws/src/grid_map_nav2\n'}
+[1.669646] (grid_map_nav2) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[1.702722] (-) TimerEvent: {}
+[1.735616] (grid_map_nav2) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':\n"}
+[1.735827] (grid_map_nav2) StdoutLine: {'line': b'7:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/xmllint.xunit.xml\n'}
+[1.802865] (-) TimerEvent: {}
+[1.903184] (-) TimerEvent: {}
+[2.003696] (-) TimerEvent: {}
+[2.104491] (-) TimerEvent: {}
+[2.205341] (-) TimerEvent: {}
+[2.306193] (-) TimerEvent: {}
+[2.407041] (-) TimerEvent: {}
+[2.507905] (-) TimerEvent: {}
+[2.608729] (-) TimerEvent: {}
+[2.709597] (-) TimerEvent: {}
+[2.810179] (-) TimerEvent: {}
+[2.910986] (-) TimerEvent: {}
+[2.960621] (grid_map_nav2) StdoutLine: {'line': b"7: File 'grid_map_layer.xml' is valid\n"}
+[2.961102] (grid_map_nav2) StdoutLine: {'line': b'7: \n'}
+[2.961337] (grid_map_nav2) StdoutLine: {'line': b"7: File 'package.xml' is valid\n"}
+[2.961542] (grid_map_nav2) StdoutLine: {'line': b'7: \n'}
+[2.961708] (grid_map_nav2) StdoutLine: {'line': b"7: File 'install/grid_map_nav2/share/grid_map_nav2/grid_map_layer.xml' is valid\n"}
+[2.961790] (grid_map_nav2) StdoutLine: {'line': b'7: \n'}
+[2.961855] (grid_map_nav2) StdoutLine: {'line': b"7: File 'install/grid_map_nav2/share/grid_map_nav2/package.xml' is valid\n"}
+[2.961918] (grid_map_nav2) StdoutLine: {'line': b'7: \n'}
+[2.961980] (grid_map_nav2) StdoutLine: {'line': b'7: No problems found\n'}
+[2.977257] (grid_map_nav2) StdoutLine: {'line': b'7: -- run_test.py: return code 0\n'}
+[2.977648] (grid_map_nav2) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/xmllint.xunit.xml'\n"}
+[2.990248] (grid_map_nav2) StdoutLine: {'line': b'7/7 Test #7: xmllint ..........................   Passed    1.32 sec\n'}
+[2.990832] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[2.991092] (grid_map_nav2) StdoutLine: {'line': b'71% tests passed\x1b[0;0m, \x1b[0;31m2 tests failed\x1b[0;0m out of 7\n'}
+[2.991382] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[2.991603] (grid_map_nav2) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.991844] (grid_map_nav2) StdoutLine: {'line': b'cppcheck      =   0.18 sec*proc (1 test)\n'}
+[2.992064] (grid_map_nav2) StdoutLine: {'line': b'flake8        =   0.46 sec*proc (1 test)\n'}
+[2.992288] (grid_map_nav2) StdoutLine: {'line': b'gtest         =   0.29 sec*proc (1 test)\n'}
+[2.992505] (grid_map_nav2) StdoutLine: {'line': b'lint_cmake    =   0.17 sec*proc (1 test)\n'}
+[2.992730] (grid_map_nav2) StdoutLine: {'line': b'linter        =   2.63 sec*proc (6 tests)\n'}
+[2.992980] (grid_map_nav2) StdoutLine: {'line': b'pep257        =   0.28 sec*proc (1 test)\n'}
+[2.993292] (grid_map_nav2) StdoutLine: {'line': b'uncrustify    =   0.23 sec*proc (1 test)\n'}
+[2.993588] (grid_map_nav2) StdoutLine: {'line': b'xmllint       =   1.32 sec*proc (1 test)\n'}
+[2.993722] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[2.993805] (grid_map_nav2) StdoutLine: {'line': b'Total Test time (real) =   2.93 sec\n'}
+[2.993876] (grid_map_nav2) StdoutLine: {'line': b'\n'}
+[2.993945] (grid_map_nav2) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[2.994025] (grid_map_nav2) StdoutLine: {'line': b'\t\x1b[0;31m  3 - flake8 (Failed)\x1b[0;0m\n'}
+[2.994093] (grid_map_nav2) StdoutLine: {'line': b'\t\x1b[0;31m  6 - uncrustify (Failed)\x1b[0;0m\n'}
+[2.994249] (grid_map_nav2) StderrLine: {'line': b'Errors while running CTest\n'}
+[2.994363] (grid_map_nav2) StderrLine: {'line': b'Output from these tests are in: /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/Testing/Temporary/LastTest.log\n'}
+[2.994457] (grid_map_nav2) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[2.999152] (grid_map_nav2) CommandEnded: {'returncode': 8}
+[2.999898] (grid_map_nav2) TestFailure: {'identifier': 'grid_map_nav2'}
+[3.000229] (grid_map_nav2) JobEnded: {'identifier': 'grid_map_nav2', 'rc': 0}
+[3.001610] (-) EventReactorShutdown: {}

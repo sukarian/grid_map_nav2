@@ -1,0 +1,45 @@
+[0.016s] Invoking command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2 -- -j16 -l16
+[0.110s] [ 50%] Built target gtest_main
+[0.110s] [ 50%] Built target gtest
+[0.124s] [ 62%] [32mBuilding CXX object CMakeFiles/grid_map_nav2.dir/src/grid_map_layer.cpp.o[0m
+[3.796s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:[m[K In member function ‘[01m[Kvirtual void grid_map_nav2::GridMapLayer::[01;32m[KupdateCosts[m[K(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’:
+[3.796s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:139:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(double, float, float)[m[K’
+[3.796s]   139 |                 float normalized = [01;31m[Kstd::clamp((value - min_value_) / range, 0.0f, 1.0f)[m[K;
+[3.796s]       |                                    [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.796s] In file included from [01m[K/usr/include/c++/13/algorithm:61[m[K,
+[3.796s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:11[m[K,
+[3.796s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[3.796s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+[3.796s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.796s]                  from [01m[K/home/nathan/ros_ws/src/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp:4[m[K,
+[3.796s]                  from [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:1[m[K:
+[3.796s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[3.796s]  3667 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[3.797s]       |     [01;36m[K^~~~~[m[K
+[3.797s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.797s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:139:46:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+[3.797s]   139 |                 float normalized = [01;36m[Kstd::clamp((value - min_value_) / range, 0.0f, 1.0f)[m[K;
+[3.797s]       |                                    [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.797s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[3.797s]  3687 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[3.797s]       |     [01;36m[K^~~~~[m[K
+[3.797s] [01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.797s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:139:46:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+[3.797s]   139 |                 float normalized = [01;36m[Kstd::clamp((value - min_value_) / range, 0.0f, 1.0f)[m[K;
+[3.797s]       |                                    [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.797s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmin_i[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.797s]    86 |         [01;35m[Kint min_i[m[K, int min_j, int max_i, int max_j)
+[3.797s]       |         [01;35m[K~~~~^~~~~[m[K
+[3.797s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmin_j[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.797s]    86 |         int min_i, [01;35m[Kint min_j[m[K, int max_i, int max_j)
+[3.798s]       |                    [01;35m[K~~~~^~~~~[m[K
+[3.798s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_i[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.798s]    86 |         int min_i, int min_j, [01;35m[Kint max_i[m[K, int max_j)
+[3.798s]       |                               [01;35m[K~~~~^~~~~[m[K
+[3.798s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_j[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.798s]    86 |         int min_i, int min_j, int max_i, [01;35m[Kint max_j[m[K)
+[3.798s]       |                                          [01;35m[K~~~~^~~~~[m[K
+[5.892s] gmake[2]: *** [CMakeFiles/grid_map_nav2.dir/build.make:76: CMakeFiles/grid_map_nav2.dir/src/grid_map_layer.cpp.o] Error 1
+[5.892s] gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/grid_map_nav2.dir/all] Error 2
+[5.893s] gmake: *** [Makefile:146: all] Error 2
+[5.896s] Invoked command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2 -- -j16 -l16

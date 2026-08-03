@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.000708] (grid_map_nav2) JobQueued: {'identifier': 'grid_map_nav2', 'dependencies': OrderedDict()}
+[0.000794] (grid_map_nav2) JobStarted: {'identifier': 'grid_map_nav2'}
+[0.014486] (grid_map_nav2) JobProgress: {'identifier': 'grid_map_nav2', 'progress': 'cmake'}
+[0.015011] (grid_map_nav2) Command: {'cmd': ['/usr/bin/cmake', '/home/nathan/ros_ws/src/grid_map_nav2', '-DCMAKE_INSTALL_PREFIX=/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2'], 'cwd': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'nathan', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/nathan/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nathan/ros_ws/install/grid_map_demos/lib:/home/nathan/ros_ws/install/grid_map_visualization/lib:/home/nathan/ros_ws/install/grid_map_sdf/lib:/home/nathan/ros_ws/install/grid_map_rviz_plugin/lib:/home/nathan/ros_ws/install/grid_map_pcl/lib:/home/nathan/ros_ws/install/grid_map_nav2/lib:/home/nathan/ros_ws/install/grid_map_loader/lib:/home/nathan/ros_ws/install/grid_map_filters/lib:/home/nathan/ros_ws/install/grid_map_ros/lib:/home/nathan/ros_ws/install/grid_map_octomap/lib:/home/nathan/ros_ws/install/grid_map_msgs/lib:/home/nathan/ros_ws/install/grid_map_cv/lib:/home/nathan/ros_ws/install/grid_map_costmap_2d/lib:/home/nathan/ros_ws/install/grid_map_core/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathan', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.122.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/243/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/nathan/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/243/usr/share/code/code', 'MANAGERPID': '2220', 'SYSTEMD_EXEC_PID': '2530', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathan/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathan', 'JOURNAL_STREAM': '9:20433', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'nathan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:@/tmp/.ICE-unix/2504,unix/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:/tmp/.ICE-unix/2504', 'GTK_EXE_PREFIX': '/snap/code/243/usr', 'INVOCATION_ID': '783f7003297e44ad8c7ad7b3c71a384c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/243/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/nathan/snap/code/243/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GKN2P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-37f4059210.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/nathan/snap/code/243/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': 'c4821c9a9157276675ff2dfa73355940', 'XDG_DATA_DIRS': '/home/nathan/snap/code/243/.local/share:/home/nathan/snap/code/243:/snap/code/243/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathan/ros_ws/install/grid_map_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100017] (-) TimerEvent: {}
+[0.200441] (-) TimerEvent: {}
+[0.234589] (grid_map_nav2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300599] (-) TimerEvent: {}
+[0.364702] (grid_map_nav2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.400729] (-) TimerEvent: {}
+[0.421182] (grid_map_nav2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500842] (-) TimerEvent: {}
+[0.580738] (grid_map_nav2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.589577] (grid_map_nav2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.591145] (grid_map_nav2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.593237] (grid_map_nav2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.600939] (-) TimerEvent: {}
+[0.608001] (grid_map_nav2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701107] (-) TimerEvent: {}
+[0.774611] (grid_map_nav2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.784274] (grid_map_nav2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.784684] (grid_map_nav2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.785044] (grid_map_nav2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.801232] (-) TimerEvent: {}
+[0.901838] (-) TimerEvent: {}
+[0.941682] (grid_map_nav2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.002410] (-) TimerEvent: {}
+[1.102968] (-) TimerEvent: {}
+[1.203429] (-) TimerEvent: {}
+[1.241790] (grid_map_nav2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.304080] (-) TimerEvent: {}
+[1.404975] (-) TimerEvent: {}
+[1.505459] (-) TimerEvent: {}
+[1.606180] (-) TimerEvent: {}
+[1.706952] (-) TimerEvent: {}
+[1.807378] (-) TimerEvent: {}
+[1.908377] (-) TimerEvent: {}
+[2.008925] (-) TimerEvent: {}
+[2.067935] (grid_map_nav2) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.3.11 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)\n'}
+[2.109176] (-) TimerEvent: {}
+[2.209939] (-) TimerEvent: {}
+[2.310714] (-) TimerEvent: {}
+[2.411392] (-) TimerEvent: {}
+[2.511899] (-) TimerEvent: {}
+[2.612742] (-) TimerEvent: {}
+[2.669799] (grid_map_nav2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.713188] (-) TimerEvent: {}
+[2.814048] (-) TimerEvent: {}
+[2.822450] (grid_map_nav2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.914224] (-) TimerEvent: {}
+[3.014987] (-) TimerEvent: {}
+[3.023820] (grid_map_nav2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.115446] (-) TimerEvent: {}
+[3.211975] (grid_map_nav2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.215562] (-) TimerEvent: {}
+[3.316021] (-) TimerEvent: {}
+[3.416809] (-) TimerEvent: {}
+[3.517241] (-) TimerEvent: {}
+[3.617877] (-) TimerEvent: {}
+[3.718331] (-) TimerEvent: {}
+[3.818731] (-) TimerEvent: {}
+[3.919358] (-) TimerEvent: {}
+[4.019749] (-) TimerEvent: {}
+[4.120342] (-) TimerEvent: {}
+[4.220800] (-) TimerEvent: {}
+[4.321476] (-) TimerEvent: {}
+[4.330147] (grid_map_nav2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.383855] (grid_map_nav2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.421858] (-) TimerEvent: {}
+[4.522447] (-) TimerEvent: {}
+[4.623188] (-) TimerEvent: {}
+[4.723615] (-) TimerEvent: {}
+[4.824363] (-) TimerEvent: {}
+[4.925012] (-) TimerEvent: {}
+[5.028097] (-) TimerEvent: {}
+[5.128926] (-) TimerEvent: {}
+[5.197083] (grid_map_nav2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.229059] (-) TimerEvent: {}
+[5.300113] (grid_map_nav2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.329217] (-) TimerEvent: {}
+[5.348128] (grid_map_nav2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.429496] (-) TimerEvent: {}
+[5.530060] (-) TimerEvent: {}
+[5.630468] (-) TimerEvent: {}
+[5.730876] (-) TimerEvent: {}
+[5.831332] (-) TimerEvent: {}
+[5.931779] (-) TimerEvent: {}
+[6.032338] (-) TimerEvent: {}
+[6.132808] (-) TimerEvent: {}
+[6.233339] (-) TimerEvent: {}
+[6.333759] (-) TimerEvent: {}
+[6.434436] (-) TimerEvent: {}
+[6.534876] (-) TimerEvent: {}
+[6.635336] (-) TimerEvent: {}
+[6.735792] (-) TimerEvent: {}
+[6.836126] (-) TimerEvent: {}
+[6.936756] (-) TimerEvent: {}
+[7.037430] (-) TimerEvent: {}
+[7.137969] (-) TimerEvent: {}
+[7.139155] (grid_map_nav2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[7.165487] (grid_map_nav2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[7.165686] (grid_map_nav2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.238109] (-) TimerEvent: {}
+[7.338840] (-) TimerEvent: {}
+[7.439418] (-) TimerEvent: {}
+[7.539850] (-) TimerEvent: {}
+[7.640394] (-) TimerEvent: {}
+[7.740942] (-) TimerEvent: {}
+[7.841529] (-) TimerEvent: {}
+[7.941891] (-) TimerEvent: {}
+[8.042190] (-) TimerEvent: {}
+[8.108827] (grid_map_nav2) StdoutLine: {'line': b'-- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[8.120470] (grid_map_nav2) StdoutLine: {'line': b'-- Found grid_map_ros: 2.2.2 (/home/nathan/ros_ws/install/grid_map_ros/share/grid_map_ros/cmake)\n'}
+[8.142621] (-) TimerEvent: {}
+[8.243447] (-) TimerEvent: {}
+[8.344238] (-) TimerEvent: {}
+[8.444987] (-) TimerEvent: {}
+[8.545774] (-) TimerEvent: {}
+[8.646511] (-) TimerEvent: {}
+[8.747231] (-) TimerEvent: {}
+[8.787900] (grid_map_nav2) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[8.842052] (grid_map_nav2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.847574] (-) TimerEvent: {}
+[8.876448] (grid_map_nav2) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[8.922971] (grid_map_nav2) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[8.947749] (-) TimerEvent: {}
+[8.948220] (grid_map_nav2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.047850] (-) TimerEvent: {}
+[9.099951] (grid_map_nav2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.100829] (grid_map_nav2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.147973] (-) TimerEvent: {}
+[9.248510] (-) TimerEvent: {}
+[9.349120] (-) TimerEvent: {}
+[9.449632] (-) TimerEvent: {}
+[9.544878] (grid_map_nav2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.545341] (grid_map_nav2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nathan/ros_ws/src/grid_map_nav2/include>\n'}
+[9.545563] (grid_map_nav2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.550002] (-) TimerEvent: {}
+[9.553620] (grid_map_nav2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.553928] (grid_map_nav2) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.577428] (grid_map_nav2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.591220] (grid_map_nav2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.621481] (grid_map_nav2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.621770] (grid_map_nav2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.644124] (grid_map_nav2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.647148] (grid_map_nav2) StdoutLine: {'line': b'-- Configuring done (9.6s)\n'}
+[9.650116] (-) TimerEvent: {}
+[9.740950] (grid_map_nav2) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[9.750245] (-) TimerEvent: {}
+[9.750679] (grid_map_nav2) StdoutLine: {'line': b'-- Build files have been written to: /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2\n'}
+[9.773340] (grid_map_nav2) CommandEnded: {'returncode': 0}
+[9.773769] (grid_map_nav2) JobProgress: {'identifier': 'grid_map_nav2', 'progress': 'build'}
+[9.773795] (grid_map_nav2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', '--', '-j16', '-l16'], 'cwd': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'nathan', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/nathan/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nathan/ros_ws/install/grid_map_demos/lib:/home/nathan/ros_ws/install/grid_map_visualization/lib:/home/nathan/ros_ws/install/grid_map_sdf/lib:/home/nathan/ros_ws/install/grid_map_rviz_plugin/lib:/home/nathan/ros_ws/install/grid_map_pcl/lib:/home/nathan/ros_ws/install/grid_map_nav2/lib:/home/nathan/ros_ws/install/grid_map_loader/lib:/home/nathan/ros_ws/install/grid_map_filters/lib:/home/nathan/ros_ws/install/grid_map_ros/lib:/home/nathan/ros_ws/install/grid_map_octomap/lib:/home/nathan/ros_ws/install/grid_map_msgs/lib:/home/nathan/ros_ws/install/grid_map_cv/lib:/home/nathan/ros_ws/install/grid_map_costmap_2d/lib:/home/nathan/ros_ws/install/grid_map_core/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathan', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.122.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/243/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/nathan/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/243/usr/share/code/code', 'MANAGERPID': '2220', 'SYSTEMD_EXEC_PID': '2530', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathan/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathan', 'JOURNAL_STREAM': '9:20433', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'nathan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:@/tmp/.ICE-unix/2504,unix/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:/tmp/.ICE-unix/2504', 'GTK_EXE_PREFIX': '/snap/code/243/usr', 'INVOCATION_ID': '783f7003297e44ad8c7ad7b3c71a384c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/243/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/nathan/snap/code/243/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GKN2P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-37f4059210.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/nathan/snap/code/243/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': 'c4821c9a9157276675ff2dfa73355940', 'XDG_DATA_DIRS': '/home/nathan/snap/code/243/.local/share:/home/nathan/snap/code/243:/snap/code/243/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathan/ros_ws/install/grid_map_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.850387] (-) TimerEvent: {}
+[9.853959] (grid_map_nav2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[9.856197] (grid_map_nav2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[9.859308] (grid_map_nav2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/grid_map_nav2.dir/src/grid_map_layer.cpp.o\x1b[0m\n'}
+[9.950505] (-) TimerEvent: {}
+[10.050774] (-) TimerEvent: {}
+[10.151039] (-) TimerEvent: {}
+[10.251319] (-) TimerEvent: {}
+[10.351588] (-) TimerEvent: {}
+[10.451889] (-) TimerEvent: {}
+[10.552261] (-) TimerEvent: {}
+[10.629483] (grid_map_nav2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[10.652417] (-) TimerEvent: {}
+[10.709328] (grid_map_nav2) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[10.752560] (-) TimerEvent: {}
+[10.852905] (-) TimerEvent: {}
+[10.953266] (-) TimerEvent: {}
+[11.053658] (-) TimerEvent: {}
+[11.154005] (-) TimerEvent: {}
+[11.254478] (-) TimerEvent: {}
+[11.354814] (-) TimerEvent: {}
+[11.455151] (-) TimerEvent: {}
+[11.555533] (-) TimerEvent: {}
+[11.656163] (-) TimerEvent: {}
+[11.756705] (-) TimerEvent: {}
+[11.857065] (-) TimerEvent: {}
+[11.957448] (-) TimerEvent: {}
+[12.057792] (-) TimerEvent: {}
+[12.158426] (-) TimerEvent: {}
+[12.259130] (-) TimerEvent: {}
+[12.359778] (-) TimerEvent: {}
+[12.460741] (-) TimerEvent: {}
+[12.561364] (-) TimerEvent: {}
+[12.661697] (-) TimerEvent: {}
+[12.762032] (-) TimerEvent: {}
+[12.862605] (-) TimerEvent: {}
+[12.963285] (-) TimerEvent: {}
+[13.063898] (-) TimerEvent: {}
+[13.164535] (-) TimerEvent: {}
+[13.265385] (-) TimerEvent: {}
+[13.366202] (-) TimerEvent: {}
+[13.466886] (-) TimerEvent: {}
+[13.523147] (grid_map_nav2) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[13.567018] (-) TimerEvent: {}
+[13.608804] (grid_map_nav2) StdoutLine: {'line': b'[ 62%] Built target gtest\n'}
+[13.667157] (-) TimerEvent: {}
+[13.767558] (-) TimerEvent: {}
+[13.867940] (-) TimerEvent: {}
+[13.968287] (-) TimerEvent: {}
+[14.068642] (-) TimerEvent: {}
+[14.169003] (-) TimerEvent: {}
+[14.269370] (-) TimerEvent: {}
+[14.369716] (-) TimerEvent: {}
+[14.470064] (-) TimerEvent: {}
+[14.570407] (-) TimerEvent: {}
+[14.670736] (-) TimerEvent: {}
+[14.771096] (-) TimerEvent: {}
+[14.871440] (-) TimerEvent: {}
+[14.925215] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void grid_map_nav2::GridMapLayer::\x1b[01;32m\x1b[KupdateCosts\x1b[m\x1b[K(nav2_costmap_2d::Costmap2D&, int, int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.925528] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmin_i\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.925700] (grid_map_nav2) StderrLine: {'line': b'   86 |         \x1b[01;35m\x1b[Kint min_i\x1b[m\x1b[K, int min_j, int max_i, int max_j)\n'}
+[14.925840] (grid_map_nav2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.925972] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmin_j\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.926106] (grid_map_nav2) StderrLine: {'line': b'   86 |         int min_i, \x1b[01;35m\x1b[Kint min_j\x1b[m\x1b[K, int max_i, int max_j)\n'}
+[14.926238] (grid_map_nav2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.926389] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmax_i\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.926522] (grid_map_nav2) StderrLine: {'line': b'   86 |         int min_i, int min_j, \x1b[01;35m\x1b[Kint max_i\x1b[m\x1b[K, int max_j)\n'}
+[14.926653] (grid_map_nav2) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.926784] (grid_map_nav2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmax_j\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.926918] (grid_map_nav2) StderrLine: {'line': b'   86 |         int min_i, int min_j, int max_i, \x1b[01;35m\x1b[Kint max_j\x1b[m\x1b[K)\n'}
+[14.927048] (grid_map_nav2) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.971583] (-) TimerEvent: {}
+[15.071907] (-) TimerEvent: {}
+[15.172256] (-) TimerEvent: {}
+[15.272617] (-) TimerEvent: {}
+[15.372962] (-) TimerEvent: {}
+[15.473337] (-) TimerEvent: {}
+[15.573694] (-) TimerEvent: {}
+[15.674029] (-) TimerEvent: {}
+[15.774374] (-) TimerEvent: {}
+[15.874719] (-) TimerEvent: {}
+[15.975057] (-) TimerEvent: {}
+[16.075392] (-) TimerEvent: {}
+[16.175734] (-) TimerEvent: {}
+[16.276077] (-) TimerEvent: {}
+[16.376425] (-) TimerEvent: {}
+[16.476779] (-) TimerEvent: {}
+[16.577110] (-) TimerEvent: {}
+[16.677472] (-) TimerEvent: {}
+[16.777815] (-) TimerEvent: {}
+[16.878156] (-) TimerEvent: {}
+[16.978523] (-) TimerEvent: {}
+[17.078869] (-) TimerEvent: {}
+[17.179217] (-) TimerEvent: {}
+[17.279600] (-) TimerEvent: {}
+[17.379957] (-) TimerEvent: {}
+[17.480290] (-) TimerEvent: {}
+[17.581052] (-) TimerEvent: {}
+[17.681383] (-) TimerEvent: {}
+[17.781714] (-) TimerEvent: {}
+[17.882043] (-) TimerEvent: {}
+[17.982380] (-) TimerEvent: {}
+[18.082712] (-) TimerEvent: {}
+[18.183047] (-) TimerEvent: {}
+[18.283378] (-) TimerEvent: {}
+[18.383716] (-) TimerEvent: {}
+[18.484112] (-) TimerEvent: {}
+[18.584521] (-) TimerEvent: {}
+[18.684890] (-) TimerEvent: {}
+[18.785285] (-) TimerEvent: {}
+[18.885694] (-) TimerEvent: {}
+[18.986378] (-) TimerEvent: {}
+[19.086783] (-) TimerEvent: {}
+[19.187177] (-) TimerEvent: {}
+[19.287597] (-) TimerEvent: {}
+[19.387992] (-) TimerEvent: {}
+[19.488390] (-) TimerEvent: {}
+[19.588787] (-) TimerEvent: {}
+[19.689131] (-) TimerEvent: {}
+[19.789799] (-) TimerEvent: {}
+[19.890358] (-) TimerEvent: {}
+[19.990754] (-) TimerEvent: {}
+[20.091127] (-) TimerEvent: {}
+[20.191557] (-) TimerEvent: {}
+[20.291969] (-) TimerEvent: {}
+[20.392379] (-) TimerEvent: {}
+[20.486119] (grid_map_nav2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgrid_map_nav2.so\x1b[0m\n'}
+[20.492704] (-) TimerEvent: {}
+[20.593070] (-) TimerEvent: {}
+[20.693524] (-) TimerEvent: {}
+[20.793951] (-) TimerEvent: {}
+[20.894396] (-) TimerEvent: {}
+[20.994888] (-) TimerEvent: {}
+[21.095356] (-) TimerEvent: {}
+[21.195761] (-) TimerEvent: {}
+[21.296414] (-) TimerEvent: {}
+[21.371785] (grid_map_nav2) StdoutLine: {'line': b'[ 75%] Built target grid_map_nav2\n'}
+[21.396521] (-) TimerEvent: {}
+[21.406854] (grid_map_nav2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/test_grid_map_layer.dir/test/test_grid_map_layer.cpp.o\x1b[0m\n'}
+[21.496681] (-) TimerEvent: {}
+[21.597080] (-) TimerEvent: {}
+[21.697496] (-) TimerEvent: {}
+[21.797890] (-) TimerEvent: {}
+[21.898289] (-) TimerEvent: {}
+[21.998714] (-) TimerEvent: {}
+[22.099110] (-) TimerEvent: {}
+[22.199544] (-) TimerEvent: {}
+[22.299941] (-) TimerEvent: {}
+[22.400356] (-) TimerEvent: {}
+[22.500754] (-) TimerEvent: {}
+[22.601148] (-) TimerEvent: {}
+[22.701570] (-) TimerEvent: {}
+[22.801956] (-) TimerEvent: {}
+[22.902372] (-) TimerEvent: {}
+[23.002770] (-) TimerEvent: {}
+[23.103186] (-) TimerEvent: {}
+[23.203609] (-) TimerEvent: {}
+[23.304007] (-) TimerEvent: {}
+[23.404376] (-) TimerEvent: {}
+[23.504723] (-) TimerEvent: {}
+[23.605124] (-) TimerEvent: {}
+[23.705549] (-) TimerEvent: {}
+[23.805940] (-) TimerEvent: {}
+[23.906362] (-) TimerEvent: {}
+[24.006716] (-) TimerEvent: {}
+[24.107027] (-) TimerEvent: {}
+[24.207428] (-) TimerEvent: {}
+[24.308028] (-) TimerEvent: {}
+[24.408438] (-) TimerEvent: {}
+[24.508841] (-) TimerEvent: {}
+[24.609234] (-) TimerEvent: {}
+[24.709655] (-) TimerEvent: {}
+[24.810046] (-) TimerEvent: {}
+[24.910752] (-) TimerEvent: {}
+[25.011162] (-) TimerEvent: {}
+[25.111585] (-) TimerEvent: {}
+[25.211987] (-) TimerEvent: {}
+[25.312390] (-) TimerEvent: {}
+[25.412789] (-) TimerEvent: {}
+[25.513186] (-) TimerEvent: {}
+[25.613603] (-) TimerEvent: {}
+[25.713998] (-) TimerEvent: {}
+[25.814391] (-) TimerEvent: {}
+[25.876662] (grid_map_nav2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_grid_map_layer\x1b[0m\n'}
+[25.914529] (-) TimerEvent: {}
+[26.014933] (-) TimerEvent: {}
+[26.115405] (-) TimerEvent: {}
+[26.215852] (-) TimerEvent: {}
+[26.316370] (-) TimerEvent: {}
+[26.416820] (-) TimerEvent: {}
+[26.517256] (-) TimerEvent: {}
+[26.617719] (-) TimerEvent: {}
+[26.718174] (-) TimerEvent: {}
+[26.818607] (-) TimerEvent: {}
+[26.918978] (-) TimerEvent: {}
+[27.019366] (-) TimerEvent: {}
+[27.026718] (grid_map_nav2) StdoutLine: {'line': b'[100%] Built target test_grid_map_layer\n'}
+[27.055456] (grid_map_nav2) CommandEnded: {'returncode': 0}
+[27.056721] (grid_map_nav2) JobProgress: {'identifier': 'grid_map_nav2', 'progress': 'install'}
+[27.070176] (grid_map_nav2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2'], 'cwd': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'nathan', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/nathan/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nathan/ros_ws/install/grid_map_demos/lib:/home/nathan/ros_ws/install/grid_map_visualization/lib:/home/nathan/ros_ws/install/grid_map_sdf/lib:/home/nathan/ros_ws/install/grid_map_rviz_plugin/lib:/home/nathan/ros_ws/install/grid_map_pcl/lib:/home/nathan/ros_ws/install/grid_map_nav2/lib:/home/nathan/ros_ws/install/grid_map_loader/lib:/home/nathan/ros_ws/install/grid_map_filters/lib:/home/nathan/ros_ws/install/grid_map_ros/lib:/home/nathan/ros_ws/install/grid_map_octomap/lib:/home/nathan/ros_ws/install/grid_map_msgs/lib:/home/nathan/ros_ws/install/grid_map_cv/lib:/home/nathan/ros_ws/install/grid_map_costmap_2d/lib:/home/nathan/ros_ws/install/grid_map_core/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathan', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.122.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/243/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/nathan/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/243/usr/share/code/code', 'MANAGERPID': '2220', 'SYSTEMD_EXEC_PID': '2530', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathan/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathan', 'JOURNAL_STREAM': '9:20433', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'nathan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/nathan/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:@/tmp/.ICE-unix/2504,unix/nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH:/tmp/.ICE-unix/2504', 'GTK_EXE_PREFIX': '/snap/code/243/usr', 'INVOCATION_ID': '783f7003297e44ad8c7ad7b3c71a384c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/243/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/nathan/snap/code/243/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GKN2P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-37f4059210.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/nathan/snap/code/243/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': 'c4821c9a9157276675ff2dfa73355940', 'XDG_DATA_DIRS': '/home/nathan/snap/code/243/.local/share:/home/nathan/snap/code/243:/snap/code/243/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathan/ros_ws/install/grid_map_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nathan/ros_ws/install/grid_map:/home/nathan/ros_ws/install/grid_map_demos:/home/nathan/ros_ws/install/grid_map_visualization:/home/nathan/ros_ws/install/grid_map_sdf:/home/nathan/ros_ws/install/grid_map_rviz_plugin:/home/nathan/ros_ws/install/grid_map_pcl:/home/nathan/ros_ws/install/grid_map_nav2:/home/nathan/ros_ws/install/grid_map_loader:/home/nathan/ros_ws/install/grid_map_filters:/home/nathan/ros_ws/install/grid_map_ros:/home/nathan/ros_ws/install/grid_map_octomap:/home/nathan/ros_ws/install/grid_map_msgs:/home/nathan/ros_ws/install/grid_map_cv:/home/nathan/ros_ws/install/grid_map_costmap_2d:/home/nathan/ros_ws/install/grid_map_core:/home/nathan/ros_ws/install/grid_map_cmake_helpers:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[27.085428] (grid_map_nav2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.085717] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/libgrid_map_nav2.so\n'}
+[27.090232] (grid_map_nav2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/libgrid_map_nav2.so" to ""\n'}
+[27.090526] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include/\n'}
+[27.090680] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include//grid_map_nav2\n'}
+[27.090853] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include//grid_map_nav2/grid_map_layer.hpp\n'}
+[27.091015] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/grid_map_layer.xml\n'}
+[27.091164] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py\n'}
+[27.091336] (grid_map_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/grid_map_layer.xml\n'}
+[27.091518] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/package_run_dependencies/grid_map_nav2\n'}
+[27.091687] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/parent_prefix_path/grid_map_nav2\n'}
+[27.091894] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/ament_prefix_path.sh\n'}
+[27.092073] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/ament_prefix_path.dsv\n'}
+[27.092261] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/path.sh\n'}
+[27.092449] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/path.dsv\n'}
+[27.092638] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.bash\n'}
+[27.092816] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.sh\n'}
+[27.093000] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.zsh\n'}
+[27.093187] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.dsv\n'}
+[27.093381] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/package.dsv\n'}
+[27.093627] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/packages/grid_map_nav2\n'}
+[27.093864] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/grid_map_nav2\n'}
+[27.094106] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config.cmake\n'}
+[27.094263] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config-version.cmake\n'}
+[27.094469] (grid_map_nav2) StdoutLine: {'line': b'-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/package.xml\n'}
+[27.096862] (grid_map_nav2) CommandEnded: {'returncode': 0}
+[27.119485] (-) TimerEvent: {}
+[27.135329] (grid_map_nav2) JobEnded: {'identifier': 'grid_map_nav2', 'rc': 0}
+[27.136767] (-) EventReactorShutdown: {}

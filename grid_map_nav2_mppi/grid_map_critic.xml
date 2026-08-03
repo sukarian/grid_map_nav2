@@ -1,0 +1,7 @@
+<library path="grid_map_nav2_mppi">
+  <class name="grid_map_nav2_mppi::GridMapCritic" 
+  type="grid_map_nav2_mppi::GridMapCritic" 
+  base_class_type="nav2_costmap_2d::Critic">
+    <description>This is an example plugin which puts repeating costs gradients to costmap</description>
+  </class>
+</library>

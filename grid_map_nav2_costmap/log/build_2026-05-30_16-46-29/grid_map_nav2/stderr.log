@@ -1,0 +1,13 @@
+[01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:[m[K In member function ‘[01m[Kvirtual void grid_map_nav2::GridMapLayer::[01;32m[KupdateCosts[m[K(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’:
+[01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmin_i[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   86 |         [01;35m[Kint min_i[m[K, int min_j, int max_i, int max_j)
+      |         [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmin_j[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   86 |         int min_i, [01;35m[Kint min_j[m[K, int max_i, int max_j)
+      |                    [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_i[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   86 |         int min_i, int min_j, [01;35m[Kint max_i[m[K, int max_j)
+      |                               [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_j[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   86 |         int min_i, int min_j, int max_i, [01;35m[Kint max_j[m[K)
+      |                                          [01;35m[K~~~~^~~~~[m[K

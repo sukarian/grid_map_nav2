@@ -1,0 +1,32 @@
+[ 25%] Built target gtest
+[ 50%] Built target gtest_main
+[ 62%] [32mBuilding CXX object CMakeFiles/grid_map_nav2.dir/src/grid_map_layer.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libgrid_map_nav2.so[0m
+[ 75%] Built target grid_map_nav2
+[ 87%] [32m[1mLinking CXX executable test_grid_map_layer[0m
+[100%] Built target test_grid_map_layer
+-- Install configuration: ""
+-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/libgrid_map_nav2.so
+-- Set non-toolchain portion of runtime path of "/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/libgrid_map_nav2.so" to ""
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include/
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include//grid_map_nav2
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include//grid_map_nav2/grid_map_layer.hpp
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/grid_map_layer.xml
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/grid_map_layer.xml
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/package_run_dependencies/grid_map_nav2
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/parent_prefix_path/grid_map_nav2
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/path.sh
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/path.dsv
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.bash
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.sh
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.zsh
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.dsv
+-- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/package.dsv
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/packages/grid_map_nav2
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/grid_map_nav2
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config.cmake
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config-version.cmake
+-- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/package.xml

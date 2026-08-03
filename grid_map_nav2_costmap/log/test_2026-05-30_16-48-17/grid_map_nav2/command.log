@@ -1,0 +1,2 @@
+Invoking command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2' returned '8': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

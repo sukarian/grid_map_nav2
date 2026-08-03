@@ -1,0 +1,90 @@
+-- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+ - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml
+
+from grid_map_msgs.msg import GridMap
+^
+from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension
+^
+import numpy as np
+^
+class MockGridMapPublisher(Node):
+^
+        self.get_logger().info(f'length_x={msg.info.length_x} length_y={msg.info.length_y} resolution={msg.info.resolution}')
+                                                                                                   ^
+def main():
+^
+if __name__ == '__main__':
+^
+    main()          ^
+from grid_map_msgs.msg import GridMap
+^
+from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension
+^
+import numpy as np
+^
+class MockGridMapPublisher(Node):
+^
+        self.get_logger().info(f'length_x={msg.info.length_x} length_y={msg.info.length_y} resolution={msg.info.resolution}')
+                                                                                                   ^
+def main():
+^
+if __name__ == '__main__':
+^
+    main()          ^
+4     E302 expected 2 blank lines, found 1
+2     E305 expected 2 blank lines after class or function definition, found 1
+2     E501 line too long (125 > 99 characters)
+4     I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'
+2     I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout
+2     W292 no newline at end of file
+
+./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:4:1: I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'
+
+./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:5:1: I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout
+
+./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:6:1: I100 Import statements are in the wrong order. 'import numpy' should be before 'from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension'
+
+./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:8:1: E302 expected 2 blank lines, found 1
+
+./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:23:100: E501 line too long (125 > 99 characters)
+
+./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:52:1: E302 expected 2 blank lines, found 1
+
+./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:57:1: E305 expected 2 blank lines after class or function definition, found 1
+
+./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:58:11: W292 no newline at end of file
+
+./scripts/grid_map_publisher.py:4:1: I100 Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node'
+
+./scripts/grid_map_publisher.py:5:1: I101 Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout
+
+./scripts/grid_map_publisher.py:6:1: I100 Import statements are in the wrong order. 'import numpy' should be before 'from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension'
+
+./scripts/grid_map_publisher.py:8:1: E302 expected 2 blank lines, found 1
+
+./scripts/grid_map_publisher.py:23:100: E501 line too long (125 > 99 characters)
+
+./scripts/grid_map_publisher.py:52:1: E302 expected 2 blank lines, found 1
+
+./scripts/grid_map_publisher.py:57:1: E305 expected 2 blank lines after class or function definition, found 1
+
+./scripts/grid_map_publisher.py:58:11: W292 no newline at end of file
+
+
+4 files checked
+16 errors
+
+'E'-type errors: 8
+'I'-type errors: 6
+'W'-type errors: 2
+
+Checked files:
+
+* ./scripts/grid_map_publisher.py
+* ./install/_local_setup_util_sh.py
+* ./install/_local_setup_util_ps1.py
+* ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/flake8.xunit.xml'

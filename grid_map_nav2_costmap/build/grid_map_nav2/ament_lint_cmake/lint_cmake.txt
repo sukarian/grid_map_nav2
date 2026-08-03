@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/lint_cmake.xunit.xml'

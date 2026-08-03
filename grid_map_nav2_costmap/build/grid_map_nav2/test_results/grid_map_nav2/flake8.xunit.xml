@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="grid_map_nav2.flake8"
+  tests="16"
+  errors="0"
+  failures="16"
+  time="0.259"
+>
+  <testcase
+    name="I100 (./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:4:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node':&#10;from grid_map_msgs.msg import GridMap&#10;"/>
+  </testcase>
+  <testcase
+    name="I101 (./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:5:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout:&#10;from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:6:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'import numpy' should be before 'from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension':&#10;import numpy as np&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:8:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;class MockGridMapPublisher(Node):&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:23:100)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="line too long (125 &gt; 99 characters):&#10;        self.get_logger().info(f'length_x={msg.info.length_x} length_y={msg.info.length_y} resolution={msg.info.resolution}')&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:52:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def main():&#10;"/>
+  </testcase>
+  <testcase
+    name="E305 (./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:57:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="expected 2 blank lines after class or function definition, found 1:&#10;if __name__ == '__main__':&#10;"/>
+  </testcase>
+  <testcase
+    name="W292 (./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py:58:11)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="no newline at end of file:&#10;    main()"/>
+  </testcase>
+  <testcase
+    name="I100 (./scripts/grid_map_publisher.py:4:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from grid_map_msgs.msg import GridMap' should be before 'from rclpy.node import Node':&#10;from grid_map_msgs.msg import GridMap&#10;"/>
+  </testcase>
+  <testcase
+    name="I101 (./scripts/grid_map_publisher.py:5:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="Imported names are in the wrong order. Should be Float32MultiArray, MultiArrayDimension, MultiArrayLayout:&#10;from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./scripts/grid_map_publisher.py:6:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'import numpy' should be before 'from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimension':&#10;import numpy as np&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./scripts/grid_map_publisher.py:8:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;class MockGridMapPublisher(Node):&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./scripts/grid_map_publisher.py:23:100)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="line too long (125 &gt; 99 characters):&#10;        self.get_logger().info(f'length_x={msg.info.length_x} length_y={msg.info.length_y} resolution={msg.info.resolution}')&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./scripts/grid_map_publisher.py:52:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def main():&#10;"/>
+  </testcase>
+  <testcase
+    name="E305 (./scripts/grid_map_publisher.py:57:1)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="expected 2 blank lines after class or function definition, found 1:&#10;if __name__ == '__main__':&#10;"/>
+  </testcase>
+  <testcase
+    name="W292 (./scripts/grid_map_publisher.py:58:11)"
+    classname="grid_map_nav2.flake8"
+  >
+      <failure message="no newline at end of file:&#10;    main()"/>
+  </testcase>
+  <system-out>Checked files:
+* ./scripts/grid_map_publisher.py
+* ./install/_local_setup_util_sh.py
+* ./install/_local_setup_util_ps1.py
+* ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py</system-out>
+</testsuite>

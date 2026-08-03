@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260620-2308-Experimental"
+	Name="nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="nathan-ASUS-TUF-Gaming-A17-FA706IH-TUF706IH"
+	OSRelease="6.17.0-35-generic"
+	OSVersion="#35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="96"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="15403"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1397.19"
+	>
+	<Testing>
+		<StartDateTime>Jun 20 19:41 EDT</StartDateTime>
+		<StartTestTime>1781998862</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 20 19:41 EDT</EndDateTime>
+		<EndTestTime>1781998862</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

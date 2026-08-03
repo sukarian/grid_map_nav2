@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="grid_map_nav2.uncrustify"
+  tests="4"
+  failures="4"
+  errors="0"
+  time="0.028"
+>
+  <testcase
+    name="include/grid_map_nav2/grid_map_layer.hpp"
+    classname="grid_map_nav2.uncrustify"
+  >
+      <failure message="Diff with 15 lines"><![CDATA[--- include/grid_map_nav2/grid_map_layer.hpp
++++ include/grid_map_nav2/grid_map_layer.hpp.uncrustify
+@@ -24,2 +24,2 @@
+-      nav2_costmap_2d::Costmap2D & master_grid,
+-      int min_i, int min_j, int max_i, int max_j);
++    nav2_costmap_2d::Costmap2D & master_grid,
++    int min_i, int min_j, int max_i, int max_j);
+@@ -46 +46 @@
+-  
++
+@@ -50 +49,0 @@
+-  
+@@ -57 +56 @@
+-#endif  // GRID_MAP_LAYER_HPP_+#endif  // GRID_MAP_LAYER_HPP_
+]]></failure>
+  </testcase>
+  <testcase
+    name="install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp"
+    classname="grid_map_nav2.uncrustify"
+  >
+      <failure message="Diff with 15 lines"><![CDATA[--- install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp
++++ install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp.uncrustify
+@@ -24,2 +24,2 @@
+-      nav2_costmap_2d::Costmap2D & master_grid,
+-      int min_i, int min_j, int max_i, int max_j);
++    nav2_costmap_2d::Costmap2D & master_grid,
++    int min_i, int min_j, int max_i, int max_j);
+@@ -46 +46 @@
+-  
++
+@@ -50 +49,0 @@
+-  
+@@ -57 +56 @@
+-#endif  // GRID_MAP_LAYER_HPP_+#endif  // GRID_MAP_LAYER_HPP_
+]]></failure>
+  </testcase>
+  <testcase
+    name="src/grid_map_layer.cpp"
+    classname="grid_map_nav2.uncrustify"
+  >
+      <failure message="Diff with 220 lines"><![CDATA[--- src/grid_map_layer.cpp
++++ src/grid_map_layer.cpp.uncrustify
+@@ -19,7 +19,7 @@
+-    GridMapLayer::GridMapLayer()
+-    :   last_min_x_(-std::numeric_limits<float>::max()),
+-        last_min_y_(-std::numeric_limits<float>::max()),
+-        last_max_x_(std::numeric_limits<float>::max()),
+-        last_max_y_(std::numeric_limits<float>::max())
+-    {
+-    }
++GridMapLayer::GridMapLayer()
++:   last_min_x_(-std::numeric_limits<float>::max()),
++  last_min_y_(-std::numeric_limits<float>::max()),
++  last_max_x_(std::numeric_limits<float>::max()),
++  last_max_y_(std::numeric_limits<float>::max())
++{
++}
+@@ -27,3 +27,3 @@
+-    void GridMapLayer::onInitialize()
+-    {
+-        auto node = node_.lock(); 
++void GridMapLayer::onInitialize()
++{
++  auto node = node_.lock();
+@@ -31,4 +31,4 @@
+-        declareParameter("layer_name", rclcpp::ParameterValue("traversability"));
+-        declareParameter("topic", rclcpp::ParameterValue("/elevation_mapping/elevation_map"));
+-        declareParameter("min_value", rclcpp::ParameterValue(0.0));
+-        declareParameter("max_value", rclcpp::ParameterValue(1.0));
++  declareParameter("layer_name", rclcpp::ParameterValue("traversability"));
++  declareParameter("topic", rclcpp::ParameterValue("/elevation_mapping/elevation_map"));
++  declareParameter("min_value", rclcpp::ParameterValue(0.0));
++  declareParameter("max_value", rclcpp::ParameterValue(1.0));
+@@ -36,4 +36,4 @@
+-        node->get_parameter(name_ + "." + "layer_name", layer_name_);
+-        node->get_parameter(name_ + "." + "topic", topic_);
+-        node->get_parameter(name_ + "." + "min_value", min_value_);
+-        node->get_parameter(name_ + "." + "max_value", max_value_);
++  node->get_parameter(name_ + "." + "layer_name", layer_name_);
++  node->get_parameter(name_ + "." + "topic", topic_);
++  node->get_parameter(name_ + "." + "min_value", min_value_);
++  node->get_parameter(name_ + "." + "max_value", max_value_);
+@@ -41 +41 @@
+-        subscription_ = node->create_subscription<grid_map_msgs::msg::GridMap>(
++  subscription_ = node->create_subscription<grid_map_msgs::msg::GridMap>(
+@@ -45 +45 @@
+-        );
++  );
+@@ -47 +47 @@
+-        RCLCPP_INFO(rclcpp::get_logger("grid_map_layer"),
++  RCLCPP_INFO(rclcpp::get_logger("grid_map_layer"),
+@@ -51,2 +51,2 @@
+-        need_recalculation_ = true;
+-    }
++  need_recalculation_ = true;
++}
+@@ -54,6 +54,6 @@
+-    void 
+-    GridMapLayer::gridMapCallback(const grid_map_msgs::msg::GridMap::SharedPtr msg)
+-    {
+-        std::lock_guard<std::mutex> lock(map_mutex_);
+-        latest_map_ = msg;
+-    }
++void
++GridMapLayer::gridMapCallback(const grid_map_msgs::msg::GridMap::SharedPtr msg)
++{
++  std::lock_guard<std::mutex> lock(map_mutex_);
++  latest_map_ = msg;
++}
+@@ -61,2 +61,2 @@
+-    void GridMapLayer::onFootprintChanged()
+-    {
++void GridMapLayer::onFootprintChanged()
++{
+@@ -64 +64 @@
+-    }
++}
+@@ -66,6 +66,6 @@
+-    void GridMapLayer::updateBounds(
+-        double /*robot_x*/, double /*robot_y*/, double /*robot_yaw*/,
+-        double* min_x, double* min_y, double* max_x, double* max_y)
+-    {
+-        std::lock_guard<std::mutex> lock(map_mutex_);
+-        if (!latest_map_) { return; }
++void GridMapLayer::updateBounds(
++  double /*robot_x*/, double /*robot_y*/, double /*robot_yaw*/,
++  double * min_x, double * min_y, double * max_x, double * max_y)
++{
++  std::lock_guard<std::mutex> lock(map_mutex_);
++  if (!latest_map_) {return;}
+@@ -73,4 +73,4 @@
+-        double map_x = latest_map_->info.pose.position.x;
+-        double map_y = latest_map_->info.pose.position.y;
+-        double half_x = latest_map_->info.length_x / 2.0;
+-        double half_y = latest_map_->info.length_y / 2.0;
++  double map_x = latest_map_->info.pose.position.x;
++  double map_y = latest_map_->info.pose.position.y;
++  double half_x = latest_map_->info.length_x / 2.0;
++  double half_y = latest_map_->info.length_y / 2.0;
+@@ -78,5 +78,5 @@
+-        *min_x = std::min(*min_x, map_x - half_x);
+-        *min_y = std::min(*min_y, map_y - half_y);
+-        *max_x = std::max(*max_x, map_x + half_x);
+-        *max_y = std::max(*max_y, map_y + half_y);
+-    }
++  *min_x = std::min(*min_x, map_x - half_x);
++  *min_y = std::min(*min_y, map_y - half_y);
++  *max_x = std::max(*max_x, map_x + half_x);
++  *max_y = std::max(*max_y, map_y + half_y);
++}
+@@ -84,6 +84,6 @@
+-    void GridMapLayer::updateCosts(
+-        nav2_costmap_2d::Costmap2D & master_grid,
+-        int min_i, int min_j, int max_i, int max_j)
+-    {
+-        std::lock_guard<std::mutex> lock(map_mutex_);
+-        if (!latest_map_) { return; }
++void GridMapLayer::updateCosts(
++  nav2_costmap_2d::Costmap2D & master_grid,
++  int min_i, int min_j, int max_i, int max_j)
++{
++  std::lock_guard<std::mutex> lock(map_mutex_);
++  if (!latest_map_) {return;}
+@@ -92,9 +92,9 @@
+-        int layer_idx = -1;
+-        for (size_t i = 0; i < latest_map_->layers.size(); i++) {
+-            if (latest_map_->layers[i] == layer_name_) {
+-                layer_idx = static_cast<int>(i);
+-                break;
+-            }
+-        }
+-        if (layer_idx < 0) {
+-            RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),
++  int layer_idx = -1;
++  for (size_t i = 0; i < latest_map_->layers.size(); i++) {
++    if (latest_map_->layers[i] == layer_name_) {
++      layer_idx = static_cast<int>(i);
++      break;
++    }
++  }
++  if (layer_idx < 0) {
++    RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),
+@@ -102,2 +102,2 @@
+-            return;
+-        }
++    return;
++  }
+@@ -105,2 +105,2 @@
+-        double resolution = latest_map_->info.resolution;
+-        if (resolution <= 0.0) { return; }
++  double resolution = latest_map_->info.resolution;
++  if (resolution <= 0.0) {return;}
+@@ -108,4 +108,4 @@
+-        int cols = static_cast<int>(std::round(latest_map_->info.length_x / resolution));
+-        int rows = static_cast<int>(std::round(latest_map_->info.length_y / resolution));
+-        double map_x = latest_map_->info.pose.position.x;
+-        double map_y = latest_map_->info.pose.position.y;
++  int cols = static_cast<int>(std::round(latest_map_->info.length_x / resolution));
++  int rows = static_cast<int>(std::round(latest_map_->info.length_y / resolution));
++  double map_x = latest_map_->info.pose.position.x;
++  double map_y = latest_map_->info.pose.position.y;
+@@ -113 +113 @@
+-        const auto & data = latest_map_->data[layer_idx].data;
++  const auto & data = latest_map_->data[layer_idx].data;
+@@ -115,2 +115,2 @@
+-        if (static_cast<int>(data.size()) != cols * rows) {
+-            RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),
++  if (static_cast<int>(data.size()) != cols * rows) {
++    RCLCPP_WARN(rclcpp::get_logger("grid_map_layer"),
+@@ -118,2 +118,2 @@
+-            return;
+-        }
++    return;
++  }
+@@ -121,2 +121,2 @@
+-        float range = max_value_ - min_value_;
+-        if (std::abs(range) < 1e-6f) { return; }
++  float range = max_value_ - min_value_;
++  if (std::abs(range) < 1e-6f) {return;}
+@@ -124,3 +124,3 @@
+-        for (int col = 0; col < cols; col++) {
+-            for (int row = 0; row < rows; row++) {
+-                float value = data[col * rows + row];
++  for (int col = 0; col < cols; col++) {
++    for (int row = 0; row < rows; row++) {
++      float value = data[col * rows + row];
+@@ -128,2 +128,2 @@
+-                double wx = map_x + (cols / 2.0 - col - 0.5) * resolution;
+-                double wy = map_y + (rows / 2.0 - row - 0.5) * resolution;
++      double wx = map_x + (cols / 2.0 - col - 0.5) * resolution;
++      double wy = map_y + (rows / 2.0 - row - 0.5) * resolution;
+@@ -131,2 +131,2 @@
+-                unsigned int mx, my;
+-                if (!master_grid.worldToMap(wx, wy, mx, my)) { continue; }
++      unsigned int mx, my;
++      if (!master_grid.worldToMap(wx, wy, mx, my)) {continue;}
+@@ -134,4 +134,4 @@
+-                if (std::isnan(value)) {
+-                    master_grid.setCost(mx, my, nav2_costmap_2d::NO_INFORMATION);
+-                    continue;
+-                }
++      if (std::isnan(value)) {
++        master_grid.setCost(mx, my, nav2_costmap_2d::NO_INFORMATION);
++        continue;
++      }
+@@ -139,2 +139,2 @@
+-                float normalized = std::clamp(static_cast<float>(value - min_value_) / range, 0.0f, 1.0f);
+-                unsigned char new_cost = static_cast<unsigned char>((normalized) * 254.0f);
++      float normalized = std::clamp(static_cast<float>(value - min_value_) / range, 0.0f, 1.0f);
++      unsigned char new_cost = static_cast<unsigned char>((normalized) * 254.0f);
+@@ -143,4 +143,2 @@
+-                unsigned char existing = master_grid.getCost(mx, my);
+-                master_grid.setCost(mx, my, std::max<unsigned char>(existing, new_cost));            
+-            }
+-        }
++      unsigned char existing = master_grid.getCost(mx, my);
++      master_grid.setCost(mx, my, std::max<unsigned char>(existing, new_cost));
+@@ -147,0 +146,2 @@
++  }
++}
+]]></failure>
+  </testcase>
+  <testcase
+    name="test/test_grid_map_layer.cpp"
+    classname="grid_map_nav2.uncrustify"
+  >
+      <failure message="Diff with 49 lines"><![CDATA[--- test/test_grid_map_layer.cpp
++++ test/test_grid_map_layer.cpp.uncrustify
+@@ -21 +21 @@
+-        std::make_shared<tf2_ros::Buffer>(clock);
++    std::make_shared<tf2_ros::Buffer>(clock);
+@@ -24 +24 @@
+-        std::make_shared<nav2_costmap_2d::LayeredCostmap>(
++    std::make_shared<nav2_costmap_2d::LayeredCostmap>(
+@@ -30 +30 @@
+-        std::make_shared<grid_map_nav2::GridMapLayer>();
++    std::make_shared<grid_map_nav2::GridMapLayer>();
+@@ -51,5 +51,5 @@
+-        0.0, 0.5, 1.0, 0.5, 0.0,
+-        0.5, 1.0, 1.0, 1.0, 0.5,
+-        1.0, 1.0, 1.0, 1.0, 1.0,
+-        0.5, 1.0, 1.0, 1.0, 0.5,
+-        0.0, 0.5, 1.0, 0.5, 0.0
++    0.0, 0.5, 1.0, 0.5, 0.0,
++    0.5, 1.0, 1.0, 1.0, 0.5,
++    1.0, 1.0, 1.0, 1.0, 1.0,
++    0.5, 1.0, 1.0, 1.0, 0.5,
++    0.0, 0.5, 1.0, 0.5, 0.0
+@@ -70,3 +70,4 @@
+-        for (unsigned int i = 0; i < costmap.getSizeInCellsX(); i++) {
+-            std::cout << static_cast<int>(costmap.getCost(i, j)) << " ";
+-        }        std::cout << std::endl;
++    for (unsigned int i = 0; i < costmap.getSizeInCellsX(); i++) {
++      std::cout << static_cast<int>(costmap.getCost(i, j)) << " ";
++    }
++    std::cout << std::endl;
+@@ -87 +88,2 @@
+-    ASSERT_EQ(costmap.getCost(5, 5), 0);}
++    ASSERT_EQ(costmap.getCost(5, 5), 0);
++}
+@@ -91,2 +93,2 @@
+-    rclcpp::init(argc, argv);
+-    ::testing::InitGoogleTest(&argc, argv);
++  rclcpp::init(argc, argv);
++  ::testing::InitGoogleTest(&argc, argv);
+@@ -94 +96 @@
+-    auto result = RUN_ALL_TESTS();
++  auto result = RUN_ALL_TESTS();
+@@ -96,3 +98,3 @@
+-    rclcpp::shutdown();
+-    return result;
+-}+  rclcpp::shutdown();
++  return result;
++}
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* include/grid_map_nav2/grid_map_layer.hpp
+* install/grid_map_nav2/include/grid_map_nav2/grid_map_layer.hpp
+* src/grid_map_layer.cpp
+* test/test_grid_map_layer.cpp</system-out>
+</testsuite>

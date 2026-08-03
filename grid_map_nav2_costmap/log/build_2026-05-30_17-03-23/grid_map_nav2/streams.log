@@ -1,0 +1,49 @@
+[0.016s] Invoking command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2 -- -j16 -l16
+[0.134s] [ 25%] Built target gtest
+[0.135s] [ 50%] Built target gtest_main
+[0.158s] [ 62%] [32mBuilding CXX object CMakeFiles/grid_map_nav2.dir/src/grid_map_layer.cpp.o[0m
+[3.748s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:[m[K In member function ‘[01m[Kvirtual void grid_map_nav2::GridMapLayer::[01;32m[KupdateCosts[m[K(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’:
+[3.748s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmin_i[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.748s]    86 |         [01;35m[Kint min_i[m[K, int min_j, int max_i, int max_j)
+[3.748s]       |         [01;35m[K~~~~^~~~~[m[K
+[3.748s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmin_j[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.749s]    86 |         int min_i, [01;35m[Kint min_j[m[K, int max_i, int max_j)
+[3.749s]       |                    [01;35m[K~~~~^~~~~[m[K
+[3.749s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_i[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.749s]    86 |         int min_i, int min_j, [01;35m[Kint max_i[m[K, int max_j)
+[3.749s]       |                               [01;35m[K~~~~^~~~~[m[K
+[3.749s] [01m[K/home/nathan/ros_ws/src/grid_map_nav2/src/grid_map_layer.cpp:86:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_j[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.749s]    86 |         int min_i, int min_j, int max_i, [01;35m[Kint max_j[m[K)
+[3.750s]       |                                          [01;35m[K~~~~^~~~~[m[K
+[9.859s] [ 75%] [32m[1mLinking CXX shared library libgrid_map_nav2.so[0m
+[10.864s] [ 75%] Built target grid_map_nav2
+[10.909s] [ 87%] [32m[1mLinking CXX executable test_grid_map_layer[0m
+[12.071s] [100%] Built target test_grid_map_layer
+[12.087s] Invoked command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2 -- -j16 -l16
+[12.102s] Invoking command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2
+[12.114s] -- Install configuration: ""
+[12.114s] -- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/libgrid_map_nav2.so
+[12.120s] -- Set non-toolchain portion of runtime path of "/home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/libgrid_map_nav2.so" to ""
+[12.120s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include/
+[12.121s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include//grid_map_nav2
+[12.121s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/include//grid_map_nav2/grid_map_layer.hpp
+[12.121s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/grid_map_layer.xml
+[12.122s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py
+[12.122s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/grid_map_layer.xml
+[12.122s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/package_run_dependencies/grid_map_nav2
+[12.122s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/parent_prefix_path/grid_map_nav2
+[12.122s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/ament_prefix_path.sh
+[12.122s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/ament_prefix_path.dsv
+[12.123s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/path.sh
+[12.123s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/environment/path.dsv
+[12.123s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.bash
+[12.123s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.sh
+[12.123s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.zsh
+[12.124s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/local_setup.dsv
+[12.124s] -- Installing: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/package.dsv
+[12.125s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/packages/grid_map_nav2
+[12.125s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/grid_map_nav2
+[12.125s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config.cmake
+[12.126s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config-version.cmake
+[12.126s] -- Up-to-date: /home/nathan/ros_ws/src/grid_map_nav2/install/grid_map_nav2/share/grid_map_nav2/package.xml
+[12.126s] Invoked command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2

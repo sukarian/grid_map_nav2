@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+ - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml
+
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./install/grid_map_nav2/lib/grid_map_nav2/grid_map_publisher.py
+checking ./scripts/grid_map_publisher.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/pep257.xunit.xml'

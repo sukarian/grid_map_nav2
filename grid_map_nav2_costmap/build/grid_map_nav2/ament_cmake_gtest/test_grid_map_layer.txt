@@ -1,0 +1,30 @@
+-- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2':
+ - /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_grid_map_layer --gtest_output=xml:/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml
+
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GridMapLayerTest
+[ RUN      ] GridMapLayerTest.UpdateCosts
+[INFO] [1780176967.358577395] [grid_map_layer]: Params: layer=traversability topic=/elevation_mapping/elevation_map min=0.00 max=1.00
+Costmap after update:
+254 254 254 0 0 0 0 0 0 0 
+254 254 127 0 0 0 0 0 0 0 
+254 127 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+[       OK ] GridMapLayerTest.UpdateCosts (39 ms)
+[----------] 1 test from GridMapLayerTest (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (40 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml'
+-- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/test_grid_map_layer.gtest.xml'

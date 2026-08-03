@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/nathan/ros_ws/src/grid_map_nav2':
+ - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml --include_dirs /home/nathan/ros_ws/src/grid_map_nav2/include
+
+cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/nathan/ros_ws/src/grid_map_nav2/build/grid_map_nav2/test_results/grid_map_nav2/cppcheck.xunit.xml'

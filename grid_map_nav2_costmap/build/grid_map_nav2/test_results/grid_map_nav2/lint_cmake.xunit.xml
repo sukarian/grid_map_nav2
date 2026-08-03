@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="grid_map_nav2.lint_cmake"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.004"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="grid_map_nav2.lint_cmake"/>
+  <testcase
+    name="install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config-version.cmake"
+    classname="grid_map_nav2.lint_cmake"/>
+  <testcase
+    name="install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config.cmake"
+    classname="grid_map_nav2.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config-version.cmake
+* install/grid_map_nav2/share/grid_map_nav2/cmake/grid_map_nav2Config.cmake</system-out>
+</testsuite>
